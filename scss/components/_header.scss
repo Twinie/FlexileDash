@@ -1,0 +1,138 @@
+.top-navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+
+    .navbar {
+        height: 100px;
+        background-color: cyan;
+
+        .navbar-header1 {
+            height: 100px;
+            background-color: red;
+            width: 263px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .logo {
+                .logo-icon {}
+            }
+        }
+
+        .navbar-header2 {
+            width: 100%;
+            height: 100px;
+            background-color: darkblue;
+
+
+            .container-fluid {
+                padding: 0 40px;
+
+                .navbar-brand {
+                    .menu-icon {
+                        color: $gray;
+                        width: 20px;
+                        height: 20px;
+                    }
+
+                    .search-icon {
+                        color: $gray;
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+
+                .collapse {
+                    .navbar-nav {
+                        .nav-item {
+                            .nav-link {
+                                padding: 0 16px;
+
+                                .cart-icon {
+                                    color: $gray;
+                                    width: 20px;
+                                    height: 20px;
+                                }
+
+                                .message-icon {
+                                    color: $gray;
+                                    width: 20px;
+                                    height: 20px;
+                                }
+
+                                .bell-icon {
+                                    color: $gray;
+                                    width: 20px;
+                                    height: 20px;
+                                }
+
+                                .notify {
+                                    position: relative;
+
+                                    .yellow-point {
+                                        top: -25px;
+                                        right: -8px;
+                                        position: absolute;
+                                        width: 8px;
+                                        height: 8px;
+                                        border-radius: 50%;
+                                        background-color: $yellow;
+                                    }
+
+                                    .blue-point {
+                                        top: -25px;
+                                        right: -6px;
+                                        position: absolute;
+                                        width: 8px;
+                                        height: 8px;
+                                        border-radius: 50%;
+                                        background-color: $blue;
+                                    }
+                                }
+
+                                .line {
+                                    content: "";
+                                    width: 1px;
+                                    height: 20px;
+                                    background-color: #ecf0f2;
+                                }
+                            }
+                        }
+                    }
+
+                    .profile-icon {
+                        .nav-item {
+                            .nav-link {
+                                padding: 0 5px;
+                            }
+                        }
+                    }
+
+                    .profile-text {
+                        .nav-item {
+                            .nav-link {
+                                .text-muted {
+                                    font-size: 16px;
+                                    font-family: $dm-sans;
+                                    font-weight: 400;
+
+                                    .text-dark {
+                                        font-weight: bold;
+                                        padding: 0 10px 0 0;
+                                    }
+
+                                    .chevron {
+                                        width: 20px;
+                                        height: 20px;
+                                        color: $gray;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+//
+// All the extended and custom variables(Required file)
+//
+@import "variables";
+
+//
+// Import Bootstrap source files (Required file)
+//
+@import "bootstrap/bootstrap";
+@import "components/reset";
+@import "components/header";
+@import "components/global";
