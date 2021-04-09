@@ -416,102 +416,93 @@
 // }
 
 
+.topbar {
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
 
+    .navbar {
+        padding: 0;
 
+        .navbar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-right: 1px solid #ecf0f2;
 
+            .navbar-brand {
+                line-height: 96px;
+                height: 96px;
+                margin: 0 60px 0 35px;
+                display: flex;
+            }
+        }
 
+        .navbar-collapse {
+            padding: 0 19px 0 27px;
 
+            .navbar-nav {
+                height: 96px;
+                line-height: 96px;
+                flex-direction: row;
 
+                .nav-item {
+                    // margin-right: auto;
 
+                    .nav-link {
+                        padding: 0 10px;
+                        position: relative;
 
-body {
-    font-family: $dm-sans;
+                        .icon {
+                            color: #949db2;
+                            font-size: 24px;
+                        }
 
-    .main-wrapper {
-        width: 100%;
-        overflow: hidden;
+                        .notify>.yellow-point {
+                            position: absolute;
+                            content: "";
+                            border-radius: 50%;
+                            width: 6px;
+                            height: 6px;
+                            background-color: #fec90f;
+                            top: 34px;
+                            right: 3px;
 
-        .topbar {
-            background-color: #fff;
-            width: 100%;
-            position: fixed;
-            z-index: 1;
+                        }
 
-            .navbar {
-                padding: 0;
+                        .notify>.blue-point {
+                            position: absolute;
+                            content: "";
+                            border-radius: 50%;
+                            width: 6px;
+                            height: 6px;
+                            background-color: #1e4db7;
+                            top: 34px;
+                            right: 3px;
 
-                .navbar-header {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    border-right: 1px solid #ecf0f2;
-
-                    .navbar-brand {
-                        line-height: 96px;
-                        height: 96px;
-                        margin: 0 60px 0 35px;
-                        display: flex;
+                        }
                     }
                 }
 
-                .navbar-collapse {
-                    padding: 0 19px 0 27px;
+                .dropdown {
+                    margin: 0 0 0 15px;
 
-                    .navbar-nav {
-                        height: 96px;
-                        line-height: 96px;
-                        flex-direction: row;
-
-                        .nav-item {
-                            margin-right: auto;
-
-                            .nav-link {
-                                padding: 0 10px;
-                                position: relative;
-
-                                .icon {
-                                    color: #949db2;
-                                    font-size: 24px;
-                                }
-
-                                .notify>.yellow-point {
-                                    position: absolute;
-                                    content: "";
-                                    border-radius: 50%;
-                                    width: 6px;
-                                    height: 6px;
-                                    background-color: #fec90f;
-                                    top: 34px;
-                                    right: 3px;
-
-                                }
-
-                                .notify>.blue-point {
-                                    position: absolute;
-                                    content: "";
-                                    border-radius: 50%;
-                                    width: 6px;
-                                    height: 6px;
-                                    background-color: #1e4db7;
-                                    top: 34px;
-                                    right: 3px;
-
-                                }
-                            }
-                        }
-
-                        .dropdown {
-                            margin: 0 0 0 15px;
-
-                            .btn {
-                                .profile {
-                                    vertical-align: middle;
-                                }
-                            }
+                    .btn {
+                        .profile {
+                            vertical-align: middle;
                         }
                     }
                 }
             }
         }
+    }
+}
+
+// responsive
+
+@media (max-width: 1024px) {
+    .topbar .navbar .navbar-header {
+        border-right: 0;
     }
 }
