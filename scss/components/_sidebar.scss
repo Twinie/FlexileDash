@@ -184,9 +184,20 @@
     }
 }
 
+@media (min-width: 767px) {
+    .sidebar {
+        left: 0px;
+
+        &.show-sidebar {
+            left: -265px;
+        }
+    }
+}
+
 @media (max-width: 767px) {
     .sidebar {
         left: -265px;
+
         &.show-sidebar {
             left: 0;
         }

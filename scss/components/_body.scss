@@ -1,0 +1,7 @@
+.body-wrapper {
+    padding-top: 96px;
+    margin-left: 265px;
+    @include media-breakpoint-down(md) {
+        margin-left: 0;
+    }
+}
