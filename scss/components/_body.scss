@@ -194,7 +194,7 @@
                     border: 1px solid #ecf0f2;
                     border-radius: 20px;
                     padding: 30px 20px;
-                    
+
                     .text {
                         display: flex;
                         align-items: center;
@@ -205,7 +205,7 @@
                                 font-size: 21px;
                                 font-weight: 500;
                             }
-                            
+
                             p {
                                 color: #99abb4;
                                 font-size: 13px;
@@ -213,9 +213,9 @@
                                 margin: 0;
                             }
                         }
-                        
-                        
-                        
+
+
+
                         .right-text {
                             .txt1 {
                                 margin: 0 20px;
@@ -236,9 +236,9 @@
                                 }
                             }
 
-                            
+
                             .txt2 {
-                                margin: 0 0px 0 20px ;
+                                margin: 0 0px 0 20px;
                                 color: #a7e3f4;
                                 position: relative;
                                 font-size: 14px;
@@ -272,6 +272,155 @@
                 }
             }
         }
+
+
+
+
+
+        .sales-row {
+            margin: 30px 0 0 0;
+            height: 514px;
+
+            .part1 {
+                .card {
+                    padding: 34px 25px;
+                    height: 514px;
+                    border-radius: 20px;
+                    border: 1px solid #ecf0f2;
+
+                    .heading-text {
+                        border-bottom: 1px solid #ecf0f2;
+                        padding-bottom: 5px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .main-txt {
+                            color: #11142d;
+                            font-size: 21px;
+                            font-weight: 500;
+                        }
+
+                        .mini-txt {
+                            color: #99abb4;
+                            font-size: 13px;
+                            font-weight: 400;
+                        }
+
+                        .year {
+                            .select-box {
+                                color: #777e89;
+                                background-color: #f1f9ff;
+                                padding: 6px 32px 6px 10px;
+                                font-size: 14px;
+                                font-weight: 400;
+                                border: none;
+                            }
+                        }
+                    }
+
+
+
+                    .figure {
+                        margin: 30px 0 0 0;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .text {
+                            .name {
+                                color: #777e89;
+                                font-size: 16px;
+                                font-weight: 400;
+                            }
+                        }
+
+                        .number {
+                            .num {
+                                color: #11142d;
+                                font-size: 24px;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+
+
+
+                    .chart {
+                        margin: 10px 0 0 0;
+                        width: 100%;
+                        height: 75%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+
+
+                    .yearly {
+                        .text {
+                            margin: 35px 0 0 0;
+
+                            .year1 {
+                                color: #777e89;
+                                font-size: 16px;
+                                font-weight: 400;
+                                position: relative;
+
+                                &::before {
+                                    position: absolute;
+                                    content: "";
+                                    width: 10px;
+                                    height: 10px;
+                                    background-color: $info;
+                                    top: 2px;
+                                    left: -17px;
+                                    border-radius: 50%;
+                                }
+                            }
+
+
+                            .year2 {
+                                color: #777e89;
+                                font-size: 16px;
+                                font-weight: 400;
+                                position: relative;
+
+                                &::before {
+                                    position: absolute;
+                                    content: "";
+                                    width: 10px;
+                                    height: 10px;
+                                    background-color: $blue;
+                                    top: 2px;
+                                    left: -17px;
+                                    border-radius: 50%;
+                                }
+                            }
+
+
+                            .year3 {
+                                color: #777e89;
+                                font-size: 16px;
+                                font-weight: 400;
+                                position: relative;
+
+                                &::before {
+                                    position: absolute;
+                                    content: "";
+                                    width: 10px;
+                                    height: 10px;
+                                    background-color: $yellow;
+                                    top: 2px;
+                                    left: -17px;
+                                    border-radius: 50%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -294,7 +443,7 @@
 
 
 @media (max-width: 767px) {
-   .body-wrapper .overview-part .box1 {
+    .body-wrapper .overview-part .box1 {
         height: 645px;
     }
 }
