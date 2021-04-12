@@ -79,7 +79,7 @@
                         .shape {
                             background-color: #e6f4ff;
                             height: 217px;
-                            border-radius: 30px;
+                            border-radius: 20px;
                             background-image: url("../../assets/images/hero/1.png");
                             display: flex;
                             align-items: center;
@@ -107,13 +107,52 @@
 
                 .row-part2 {
                     .column1 {
-                        background-color: royalblue;
-                        height: 200px;
+                        margin: 24px 0 0 0;
+
+                        .shape {
+                            background-color: $blue;
+                            height: 187px;
+                            border-radius: 20px;
+
+                            .text {
+                                .icon-text {
+                                    padding: 28px 36px 22px 36px;
+                                    // padding: 28px 36px;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    color: #fff;
+                                    font-size: 18px;
+                                    font-weight: bold;
+                                }
+
+                                .price-text {
+                                    padding: 0 36px;
+                                    color: #fff;
+                                    font-size: 30px;
+                                    font-weight: 500;
+                                    line-height: 25px;
+
+                                    span {
+                                        color: #9fb8ef;
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                    }
+                                }
+                            }
+                        }
                     }
 
                     .column2 {
-                        background-color: gray;
-                        height: 200px;
+                        margin: 24px 0 0 0;
+
+                        .shape {
+                            // background-color: $blue;
+                            height: 187px;
+                            border: 1px solid #ecf0f2;
+                            border-radius: 20px;
+                            background-image: url("../../assets/images/hero/2.png");
+                        }
                     }
                 }
             }

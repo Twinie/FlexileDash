@@ -205,18 +205,18 @@
     }
 }
 
-@media (min-width: 1024px) {
-    .sidebar.show-sidebar + .body-wrapper {
+@media (min-width: 991px) {
+    .sidebar.show-sidebar+.body-wrapper {
         margin-left: 0;
     }
-    
+
 }
 
-@media (max-width: 1024px) {
-    .sidebar.show-sidebar + .body-wrapper {
+@media (max-width: 991px) {
+    .sidebar.show-sidebar+.body-wrapper {
         margin-left: 0;
     }
-    
+
 }
 
 // body {
