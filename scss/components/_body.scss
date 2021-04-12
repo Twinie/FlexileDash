@@ -1,7 +1,138 @@
 .body-wrapper {
     padding-top: 96px;
     margin-left: 265px;
+    font-family: $dm-sans;
+
     @include media-breakpoint-down(md) {
         margin-left: 0;
+    }
+
+    .container-fluid {
+        padding: 20px 30px;
+
+        .main-heading {
+            margin: 0 0 50px 0;
+
+            .part1 {
+                .heading-text {
+                    .small-text {
+                        margin: 0;
+                        color: #777e89;
+                        font-size: 18px;
+                        font-weight: 400;
+                    }
+
+                    .head-txt {
+                        color: #11142d;
+                        margin: 0;
+                        font-size: 30px;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+
+            .part2 {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                .date {
+                    .option-box {
+                        .select-box {
+                            color: #777e89;
+                            background-color: #f1f9ff;
+                            padding: 6px 40px 6px 12px;
+                            border: none;
+
+                            .option-text {
+                                color: #777e89;
+                            }
+                        }
+                    }
+
+                    .button {
+                        .btn {
+                            background-color: $info;
+                            border: none;
+                            padding: 4px 12px;
+
+                            .plus-icon {
+                                width: 18px;
+                                height: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+
+        .overview-part {
+            .box1 {
+                height: 428px;
+
+                .row-part1 {
+                    .column1 {
+                        .shape {
+                            background-color: #e6f4ff;
+                            height: 217px;
+                            border-radius: 30px;
+                            background-image: url("../../assets/images/hero/1.png");
+                            display: flex;
+                            align-items: center;
+
+                            .text {
+                                margin: 0 40px;
+
+                                .txt {
+                                    color: #1e4db7;
+                                    font-size: 21px;
+                                    font-weight: 500;
+                                    line-height: 25px;
+                                }
+
+                                .button {
+                                    .btn {
+                                        background-color: $info;
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .row-part2 {
+                    .column1 {
+                        background-color: royalblue;
+                        height: 200px;
+                    }
+
+                    .column2 {
+                        background-color: gray;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 991px) {
+    .body-wrapper .part1 {
+        text-align: center;
+
+    }
+
+    .body-wrapper .part2 {
+        .box {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
     }
 }
