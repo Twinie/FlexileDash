@@ -528,7 +528,18 @@
 
 
 @media (max-width: 1199px) {
-    
+    .sales-row {
+        height: 1090px !important;
+
+        .table-box {
+            overflow: auto;
+
+            .part1,
+            .part2 {
+                padding: 0;
+            }
+        }
+    }
 }
 
 
@@ -546,6 +557,10 @@
             justify-content: center;
         }
     }
+
+    .sales-row .part2 .table-box tbody tr td {
+        padding: 0.5rem 0.2rem;
+    }
 }
 
 
@@ -554,4 +569,12 @@
     .body-wrapper .overview-part .box1 {
         height: 645px !important;
     }
+}
+
+
+
+@media (max-width: 575px) {
+    // .sales-row .part2 .table-box {
+    //     overflow: auto;
+    // }
 }
