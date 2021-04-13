@@ -7470,7 +7470,8 @@ a {
   height: calc(100vh - 96px);
   overflow: auto;
   z-index: 9;
-  border-right: 1px solid #ecf0f2; }
+  border-right: 1px solid #ecf0f2;
+  transition: all 0.6s; }
   .sidebar .scrollbar {
     height: 100%;
     display: flex;
@@ -7596,7 +7597,8 @@ a {
   height: calc(100vh - 96px);
   overflow: auto;
   z-index: 9;
-  border-right: 1px solid #ecf0f2; }
+  border-right: 1px solid #ecf0f2;
+  transition: all 0.6s; }
   .sidebar .scrollbar {
     height: 100%;
     display: flex;
@@ -7717,7 +7719,8 @@ a {
 .body-wrapper {
   padding-top: 96px;
   margin-left: 265px;
-  font-family: "DM Sans", sans-serif; }
+  font-family: "DM Sans", sans-serif;
+  transition: all 0.6s; }
   @media (max-width: 767.98px) {
     .body-wrapper {
       margin-left: 0; } }
