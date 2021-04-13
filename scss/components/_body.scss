@@ -283,6 +283,8 @@
             height: 514px;
 
             .part1 {
+                padding-left: 0;
+
                 .card {
                     padding: 34px 25px;
                     height: 514px;
@@ -421,9 +423,114 @@
                     }
                 }
             }
+
+
+
+
+            .part2 {
+                padding-right: 0;
+
+                .card {
+                    padding: 34px 28px;
+                    height: 514px;
+                    border-radius: 20px;
+                    border: 1px solid #ecf0f2;
+
+                    .heading-text {
+                        // border-bottom: 1px solid #ecf0f2;
+                        // padding-bottom: 5px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .main-txt {
+                            color: #11142d;
+                            font-size: 21px;
+                            font-weight: 500;
+                        }
+
+                        .mini-txt {
+                            color: #99abb4;
+                            font-size: 13px;
+                            font-weight: 400;
+                        }
+
+                        .year {
+                            .select-box {
+                                color: #777e89;
+                                background-color: #f1f9ff;
+                                padding: 6px 32px 6px 10px;
+                                font-size: 14px;
+                                font-weight: 400;
+                                border: none;
+                            }
+                        }
+                    }
+
+
+
+                    .table-box {
+                        .table {
+                            vertical-align: middle;
+
+                            thead {
+                                tr {
+
+                                    th {
+                                        padding-bottom: 10px;
+                                        color: #99abb4;
+                                        border-bottom: 1px solid #ecf0f2;
+                                    }
+                                }
+                            }
+
+
+                            tbody {
+                                tr {
+                                    td {
+                                        .main-name {
+                                            color: #11142d;
+                                            font-size: 14px;
+                                            font-weight: bold;
+                                        }
+
+                                        .work {
+                                            color: #99abb4;
+                                            font-size: 13px;
+                                            font-weight: 400;
+                                        }
+                                    }
+
+                                    .work-name {
+                                        color: #777e89;
+                                        font-size: 14px;
+                                        font-weight: 400;
+                                    }
+
+                                    .badge {
+                                        font-size: 12px;
+                                        font-weight: 400;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
+
+
+
+
+
+
+
+@media (max-width: 1199px) {
+    
+}
+
 
 
 @media (max-width: 991px) {
@@ -445,6 +552,6 @@
 
 @media (max-width: 767px) {
     .body-wrapper .overview-part .box1 {
-        height: 645px;
+        height: 645px !important;
     }
 }

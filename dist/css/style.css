@@ -7404,6 +7404,13 @@ ul {
 a {
   text-decoration: none; }
 
+::-webkit-scrollbar {
+  width: 5px; }
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #949db2, 100%, #f1f9ff 50%);
+  border-radius: 50px; }
+
 .topbar {
   background-color: #fff;
   width: 100%;
@@ -7463,7 +7470,6 @@ a {
     justify-content: center; } }
 
 .sidebar {
-  background-color: #fff;
   position: fixed;
   top: 96px;
   width: 265px;
@@ -7590,7 +7596,6 @@ a {
     margin-left: 0; } }
 
 .sidebar {
-  background-color: #fff;
   position: fixed;
   top: 96px;
   width: 265px;
@@ -7881,96 +7886,145 @@ a {
     .body-wrapper .container-fluid .sales-row, .body-wrapper .container-sm .sales-row, .body-wrapper .container-md .sales-row, .body-wrapper .container-lg .sales-row, .body-wrapper .container-xl .sales-row, .body-wrapper .container-xxl .sales-row {
       margin: 30px 0 0 0;
       height: 514px; }
-      .body-wrapper .container-fluid .sales-row .part1 .card, .body-wrapper .container-sm .sales-row .part1 .card, .body-wrapper .container-md .sales-row .part1 .card, .body-wrapper .container-lg .sales-row .part1 .card, .body-wrapper .container-xl .sales-row .part1 .card, .body-wrapper .container-xxl .sales-row .part1 .card {
-        padding: 34px 25px;
-        height: 514px;
-        border-radius: 20px;
-        border: 1px solid #ecf0f2; }
-        .body-wrapper .container-fluid .sales-row .part1 .card .heading-text, .body-wrapper .container-sm .sales-row .part1 .card .heading-text, .body-wrapper .container-md .sales-row .part1 .card .heading-text, .body-wrapper .container-lg .sales-row .part1 .card .heading-text, .body-wrapper .container-xl .sales-row .part1 .card .heading-text, .body-wrapper .container-xxl .sales-row .part1 .card .heading-text {
-          border-bottom: 1px solid #ecf0f2;
-          padding-bottom: 5px;
-          display: flex;
-          justify-content: space-between;
-          align-items: center; }
-          .body-wrapper .container-fluid .sales-row .part1 .card .heading-text .main-txt, .body-wrapper .container-sm .sales-row .part1 .card .heading-text .main-txt, .body-wrapper .container-md .sales-row .part1 .card .heading-text .main-txt, .body-wrapper .container-lg .sales-row .part1 .card .heading-text .main-txt, .body-wrapper .container-xl .sales-row .part1 .card .heading-text .main-txt, .body-wrapper .container-xxl .sales-row .part1 .card .heading-text .main-txt {
-            color: #11142d;
-            font-size: 21px;
-            font-weight: 500; }
-          .body-wrapper .container-fluid .sales-row .part1 .card .heading-text .mini-txt, .body-wrapper .container-sm .sales-row .part1 .card .heading-text .mini-txt, .body-wrapper .container-md .sales-row .part1 .card .heading-text .mini-txt, .body-wrapper .container-lg .sales-row .part1 .card .heading-text .mini-txt, .body-wrapper .container-xl .sales-row .part1 .card .heading-text .mini-txt, .body-wrapper .container-xxl .sales-row .part1 .card .heading-text .mini-txt {
-            color: #99abb4;
-            font-size: 13px;
-            font-weight: 400; }
-          .body-wrapper .container-fluid .sales-row .part1 .card .heading-text .year .select-box, .body-wrapper .container-sm .sales-row .part1 .card .heading-text .year .select-box, .body-wrapper .container-md .sales-row .part1 .card .heading-text .year .select-box, .body-wrapper .container-lg .sales-row .part1 .card .heading-text .year .select-box, .body-wrapper .container-xl .sales-row .part1 .card .heading-text .year .select-box, .body-wrapper .container-xxl .sales-row .part1 .card .heading-text .year .select-box {
-            color: #777e89;
-            background-color: #f1f9ff;
-            padding: 6px 32px 6px 10px;
-            font-size: 14px;
-            font-weight: 400;
-            border: none; }
-        .body-wrapper .container-fluid .sales-row .part1 .card .figure, .body-wrapper .container-sm .sales-row .part1 .card .figure, .body-wrapper .container-md .sales-row .part1 .card .figure, .body-wrapper .container-lg .sales-row .part1 .card .figure, .body-wrapper .container-xl .sales-row .part1 .card .figure, .body-wrapper .container-xxl .sales-row .part1 .card .figure {
-          margin: 30px 0 0 0;
-          display: flex;
-          justify-content: space-between;
-          align-items: center; }
-          .body-wrapper .container-fluid .sales-row .part1 .card .figure .text .name, .body-wrapper .container-sm .sales-row .part1 .card .figure .text .name, .body-wrapper .container-md .sales-row .part1 .card .figure .text .name, .body-wrapper .container-lg .sales-row .part1 .card .figure .text .name, .body-wrapper .container-xl .sales-row .part1 .card .figure .text .name, .body-wrapper .container-xxl .sales-row .part1 .card .figure .text .name {
-            color: #777e89;
-            font-size: 16px;
-            font-weight: 400; }
-          .body-wrapper .container-fluid .sales-row .part1 .card .figure .number .num, .body-wrapper .container-sm .sales-row .part1 .card .figure .number .num, .body-wrapper .container-md .sales-row .part1 .card .figure .number .num, .body-wrapper .container-lg .sales-row .part1 .card .figure .number .num, .body-wrapper .container-xl .sales-row .part1 .card .figure .number .num, .body-wrapper .container-xxl .sales-row .part1 .card .figure .number .num {
-            color: #11142d;
-            font-size: 24px;
-            font-weight: bold; }
-        .body-wrapper .container-fluid .sales-row .part1 .card .chart, .body-wrapper .container-sm .sales-row .part1 .card .chart, .body-wrapper .container-md .sales-row .part1 .card .chart, .body-wrapper .container-lg .sales-row .part1 .card .chart, .body-wrapper .container-xl .sales-row .part1 .card .chart, .body-wrapper .container-xxl .sales-row .part1 .card .chart {
-          margin: 10px 0 0 0;
-          width: 100%;
-          height: 75%;
-          display: flex;
-          justify-content: center;
-          align-items: center; }
-        .body-wrapper .container-fluid .sales-row .part1 .card .yearly .text, .body-wrapper .container-sm .sales-row .part1 .card .yearly .text, .body-wrapper .container-md .sales-row .part1 .card .yearly .text, .body-wrapper .container-lg .sales-row .part1 .card .yearly .text, .body-wrapper .container-xl .sales-row .part1 .card .yearly .text, .body-wrapper .container-xxl .sales-row .part1 .card .yearly .text {
-          margin: 35px 0 0 0; }
-          .body-wrapper .container-fluid .sales-row .part1 .card .yearly .text .year1, .body-wrapper .container-sm .sales-row .part1 .card .yearly .text .year1, .body-wrapper .container-md .sales-row .part1 .card .yearly .text .year1, .body-wrapper .container-lg .sales-row .part1 .card .yearly .text .year1, .body-wrapper .container-xl .sales-row .part1 .card .yearly .text .year1, .body-wrapper .container-xxl .sales-row .part1 .card .yearly .text .year1 {
-            color: #777e89;
-            font-size: 16px;
-            font-weight: 400;
-            position: relative; }
-            .body-wrapper .container-fluid .sales-row .part1 .card .yearly .text .year1::before, .body-wrapper .container-sm .sales-row .part1 .card .yearly .text .year1::before, .body-wrapper .container-md .sales-row .part1 .card .yearly .text .year1::before, .body-wrapper .container-lg .sales-row .part1 .card .yearly .text .year1::before, .body-wrapper .container-xl .sales-row .part1 .card .yearly .text .year1::before, .body-wrapper .container-xxl .sales-row .part1 .card .yearly .text .year1::before {
-              position: absolute;
-              content: "";
-              width: 10px;
-              height: 10px;
-              background-color: #1a9bfc;
-              top: 2px;
-              left: -17px;
-              border-radius: 50%; }
-          .body-wrapper .container-fluid .sales-row .part1 .card .yearly .text .year2, .body-wrapper .container-sm .sales-row .part1 .card .yearly .text .year2, .body-wrapper .container-md .sales-row .part1 .card .yearly .text .year2, .body-wrapper .container-lg .sales-row .part1 .card .yearly .text .year2, .body-wrapper .container-xl .sales-row .part1 .card .yearly .text .year2, .body-wrapper .container-xxl .sales-row .part1 .card .yearly .text .year2 {
-            color: #777e89;
-            font-size: 16px;
-            font-weight: 400;
-            position: relative; }
-            .body-wrapper .container-fluid .sales-row .part1 .card .yearly .text .year2::before, .body-wrapper .container-sm .sales-row .part1 .card .yearly .text .year2::before, .body-wrapper .container-md .sales-row .part1 .card .yearly .text .year2::before, .body-wrapper .container-lg .sales-row .part1 .card .yearly .text .year2::before, .body-wrapper .container-xl .sales-row .part1 .card .yearly .text .year2::before, .body-wrapper .container-xxl .sales-row .part1 .card .yearly .text .year2::before {
-              position: absolute;
-              content: "";
-              width: 10px;
-              height: 10px;
-              background-color: #1e4db7;
-              top: 2px;
-              left: -17px;
-              border-radius: 50%; }
-          .body-wrapper .container-fluid .sales-row .part1 .card .yearly .text .year3, .body-wrapper .container-sm .sales-row .part1 .card .yearly .text .year3, .body-wrapper .container-md .sales-row .part1 .card .yearly .text .year3, .body-wrapper .container-lg .sales-row .part1 .card .yearly .text .year3, .body-wrapper .container-xl .sales-row .part1 .card .yearly .text .year3, .body-wrapper .container-xxl .sales-row .part1 .card .yearly .text .year3 {
-            color: #777e89;
-            font-size: 16px;
-            font-weight: 400;
-            position: relative; }
-            .body-wrapper .container-fluid .sales-row .part1 .card .yearly .text .year3::before, .body-wrapper .container-sm .sales-row .part1 .card .yearly .text .year3::before, .body-wrapper .container-md .sales-row .part1 .card .yearly .text .year3::before, .body-wrapper .container-lg .sales-row .part1 .card .yearly .text .year3::before, .body-wrapper .container-xl .sales-row .part1 .card .yearly .text .year3::before, .body-wrapper .container-xxl .sales-row .part1 .card .yearly .text .year3::before {
-              position: absolute;
-              content: "";
-              width: 10px;
-              height: 10px;
-              background-color: #fec90f;
-              top: 2px;
-              left: -17px;
-              border-radius: 50%; }
+      .body-wrapper .container-fluid .sales-row .part1, .body-wrapper .container-sm .sales-row .part1, .body-wrapper .container-md .sales-row .part1, .body-wrapper .container-lg .sales-row .part1, .body-wrapper .container-xl .sales-row .part1, .body-wrapper .container-xxl .sales-row .part1 {
+        padding-left: 0; }
+        .body-wrapper .container-fluid .sales-row .part1 .card, .body-wrapper .container-sm .sales-row .part1 .card, .body-wrapper .container-md .sales-row .part1 .card, .body-wrapper .container-lg .sales-row .part1 .card, .body-wrapper .container-xl .sales-row .part1 .card, .body-wrapper .container-xxl .sales-row .part1 .card {
+          padding: 34px 25px;
+          height: 514px;
+          border-radius: 20px;
+          border: 1px solid #ecf0f2; }
+          .body-wrapper .container-fluid .sales-row .part1 .card .heading-text, .body-wrapper .container-sm .sales-row .part1 .card .heading-text, .body-wrapper .container-md .sales-row .part1 .card .heading-text, .body-wrapper .container-lg .sales-row .part1 .card .heading-text, .body-wrapper .container-xl .sales-row .part1 .card .heading-text, .body-wrapper .container-xxl .sales-row .part1 .card .heading-text {
+            border-bottom: 1px solid #ecf0f2;
+            padding-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; }
+            .body-wrapper .container-fluid .sales-row .part1 .card .heading-text .main-txt, .body-wrapper .container-sm .sales-row .part1 .card .heading-text .main-txt, .body-wrapper .container-md .sales-row .part1 .card .heading-text .main-txt, .body-wrapper .container-lg .sales-row .part1 .card .heading-text .main-txt, .body-wrapper .container-xl .sales-row .part1 .card .heading-text .main-txt, .body-wrapper .container-xxl .sales-row .part1 .card .heading-text .main-txt {
+              color: #11142d;
+              font-size: 21px;
+              font-weight: 500; }
+            .body-wrapper .container-fluid .sales-row .part1 .card .heading-text .mini-txt, .body-wrapper .container-sm .sales-row .part1 .card .heading-text .mini-txt, .body-wrapper .container-md .sales-row .part1 .card .heading-text .mini-txt, .body-wrapper .container-lg .sales-row .part1 .card .heading-text .mini-txt, .body-wrapper .container-xl .sales-row .part1 .card .heading-text .mini-txt, .body-wrapper .container-xxl .sales-row .part1 .card .heading-text .mini-txt {
+              color: #99abb4;
+              font-size: 13px;
+              font-weight: 400; }
+            .body-wrapper .container-fluid .sales-row .part1 .card .heading-text .year .select-box, .body-wrapper .container-sm .sales-row .part1 .card .heading-text .year .select-box, .body-wrapper .container-md .sales-row .part1 .card .heading-text .year .select-box, .body-wrapper .container-lg .sales-row .part1 .card .heading-text .year .select-box, .body-wrapper .container-xl .sales-row .part1 .card .heading-text .year .select-box, .body-wrapper .container-xxl .sales-row .part1 .card .heading-text .year .select-box {
+              color: #777e89;
+              background-color: #f1f9ff;
+              padding: 6px 32px 6px 10px;
+              font-size: 14px;
+              font-weight: 400;
+              border: none; }
+          .body-wrapper .container-fluid .sales-row .part1 .card .figure, .body-wrapper .container-sm .sales-row .part1 .card .figure, .body-wrapper .container-md .sales-row .part1 .card .figure, .body-wrapper .container-lg .sales-row .part1 .card .figure, .body-wrapper .container-xl .sales-row .part1 .card .figure, .body-wrapper .container-xxl .sales-row .part1 .card .figure {
+            margin: 30px 0 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; }
+            .body-wrapper .container-fluid .sales-row .part1 .card .figure .text .name, .body-wrapper .container-sm .sales-row .part1 .card .figure .text .name, .body-wrapper .container-md .sales-row .part1 .card .figure .text .name, .body-wrapper .container-lg .sales-row .part1 .card .figure .text .name, .body-wrapper .container-xl .sales-row .part1 .card .figure .text .name, .body-wrapper .container-xxl .sales-row .part1 .card .figure .text .name {
+              color: #777e89;
+              font-size: 16px;
+              font-weight: 400; }
+            .body-wrapper .container-fluid .sales-row .part1 .card .figure .number .num, .body-wrapper .container-sm .sales-row .part1 .card .figure .number .num, .body-wrapper .container-md .sales-row .part1 .card .figure .number .num, .body-wrapper .container-lg .sales-row .part1 .card .figure .number .num, .body-wrapper .container-xl .sales-row .part1 .card .figure .number .num, .body-wrapper .container-xxl .sales-row .part1 .card .figure .number .num {
+              color: #11142d;
+              font-size: 24px;
+              font-weight: bold; }
+          .body-wrapper .container-fluid .sales-row .part1 .card .chart, .body-wrapper .container-sm .sales-row .part1 .card .chart, .body-wrapper .container-md .sales-row .part1 .card .chart, .body-wrapper .container-lg .sales-row .part1 .card .chart, .body-wrapper .container-xl .sales-row .part1 .card .chart, .body-wrapper .container-xxl .sales-row .part1 .card .chart {
+            margin: 10px 0 0 0;
+            width: 100%;
+            height: 75%;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+          .body-wrapper .container-fluid .sales-row .part1 .card .yearly .text, .body-wrapper .container-sm .sales-row .part1 .card .yearly .text, .body-wrapper .container-md .sales-row .part1 .card .yearly .text, .body-wrapper .container-lg .sales-row .part1 .card .yearly .text, .body-wrapper .container-xl .sales-row .part1 .card .yearly .text, .body-wrapper .container-xxl .sales-row .part1 .card .yearly .text {
+            margin: 35px 0 0 0; }
+            .body-wrapper .container-fluid .sales-row .part1 .card .yearly .text .year1, .body-wrapper .container-sm .sales-row .part1 .card .yearly .text .year1, .body-wrapper .container-md .sales-row .part1 .card .yearly .text .year1, .body-wrapper .container-lg .sales-row .part1 .card .yearly .text .year1, .body-wrapper .container-xl .sales-row .part1 .card .yearly .text .year1, .body-wrapper .container-xxl .sales-row .part1 .card .yearly .text .year1 {
+              color: #777e89;
+              font-size: 16px;
+              font-weight: 400;
+              position: relative; }
+              .body-wrapper .container-fluid .sales-row .part1 .card .yearly .text .year1::before, .body-wrapper .container-sm .sales-row .part1 .card .yearly .text .year1::before, .body-wrapper .container-md .sales-row .part1 .card .yearly .text .year1::before, .body-wrapper .container-lg .sales-row .part1 .card .yearly .text .year1::before, .body-wrapper .container-xl .sales-row .part1 .card .yearly .text .year1::before, .body-wrapper .container-xxl .sales-row .part1 .card .yearly .text .year1::before {
+                position: absolute;
+                content: "";
+                width: 10px;
+                height: 10px;
+                background-color: #1a9bfc;
+                top: 2px;
+                left: -17px;
+                border-radius: 50%; }
+            .body-wrapper .container-fluid .sales-row .part1 .card .yearly .text .year2, .body-wrapper .container-sm .sales-row .part1 .card .yearly .text .year2, .body-wrapper .container-md .sales-row .part1 .card .yearly .text .year2, .body-wrapper .container-lg .sales-row .part1 .card .yearly .text .year2, .body-wrapper .container-xl .sales-row .part1 .card .yearly .text .year2, .body-wrapper .container-xxl .sales-row .part1 .card .yearly .text .year2 {
+              color: #777e89;
+              font-size: 16px;
+              font-weight: 400;
+              position: relative; }
+              .body-wrapper .container-fluid .sales-row .part1 .card .yearly .text .year2::before, .body-wrapper .container-sm .sales-row .part1 .card .yearly .text .year2::before, .body-wrapper .container-md .sales-row .part1 .card .yearly .text .year2::before, .body-wrapper .container-lg .sales-row .part1 .card .yearly .text .year2::before, .body-wrapper .container-xl .sales-row .part1 .card .yearly .text .year2::before, .body-wrapper .container-xxl .sales-row .part1 .card .yearly .text .year2::before {
+                position: absolute;
+                content: "";
+                width: 10px;
+                height: 10px;
+                background-color: #1e4db7;
+                top: 2px;
+                left: -17px;
+                border-radius: 50%; }
+            .body-wrapper .container-fluid .sales-row .part1 .card .yearly .text .year3, .body-wrapper .container-sm .sales-row .part1 .card .yearly .text .year3, .body-wrapper .container-md .sales-row .part1 .card .yearly .text .year3, .body-wrapper .container-lg .sales-row .part1 .card .yearly .text .year3, .body-wrapper .container-xl .sales-row .part1 .card .yearly .text .year3, .body-wrapper .container-xxl .sales-row .part1 .card .yearly .text .year3 {
+              color: #777e89;
+              font-size: 16px;
+              font-weight: 400;
+              position: relative; }
+              .body-wrapper .container-fluid .sales-row .part1 .card .yearly .text .year3::before, .body-wrapper .container-sm .sales-row .part1 .card .yearly .text .year3::before, .body-wrapper .container-md .sales-row .part1 .card .yearly .text .year3::before, .body-wrapper .container-lg .sales-row .part1 .card .yearly .text .year3::before, .body-wrapper .container-xl .sales-row .part1 .card .yearly .text .year3::before, .body-wrapper .container-xxl .sales-row .part1 .card .yearly .text .year3::before {
+                position: absolute;
+                content: "";
+                width: 10px;
+                height: 10px;
+                background-color: #fec90f;
+                top: 2px;
+                left: -17px;
+                border-radius: 50%; }
+      .body-wrapper .container-fluid .sales-row .part2, .body-wrapper .container-sm .sales-row .part2, .body-wrapper .container-md .sales-row .part2, .body-wrapper .container-lg .sales-row .part2, .body-wrapper .container-xl .sales-row .part2, .body-wrapper .container-xxl .sales-row .part2 {
+        padding-right: 0; }
+        .body-wrapper .container-fluid .sales-row .part2 .card, .body-wrapper .container-sm .sales-row .part2 .card, .body-wrapper .container-md .sales-row .part2 .card, .body-wrapper .container-lg .sales-row .part2 .card, .body-wrapper .container-xl .sales-row .part2 .card, .body-wrapper .container-xxl .sales-row .part2 .card {
+          padding: 34px 28px;
+          height: 514px;
+          border-radius: 20px;
+          border: 1px solid #ecf0f2; }
+          .body-wrapper .container-fluid .sales-row .part2 .card .heading-text, .body-wrapper .container-sm .sales-row .part2 .card .heading-text, .body-wrapper .container-md .sales-row .part2 .card .heading-text, .body-wrapper .container-lg .sales-row .part2 .card .heading-text, .body-wrapper .container-xl .sales-row .part2 .card .heading-text, .body-wrapper .container-xxl .sales-row .part2 .card .heading-text {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; }
+            .body-wrapper .container-fluid .sales-row .part2 .card .heading-text .main-txt, .body-wrapper .container-sm .sales-row .part2 .card .heading-text .main-txt, .body-wrapper .container-md .sales-row .part2 .card .heading-text .main-txt, .body-wrapper .container-lg .sales-row .part2 .card .heading-text .main-txt, .body-wrapper .container-xl .sales-row .part2 .card .heading-text .main-txt, .body-wrapper .container-xxl .sales-row .part2 .card .heading-text .main-txt {
+              color: #11142d;
+              font-size: 21px;
+              font-weight: 500; }
+            .body-wrapper .container-fluid .sales-row .part2 .card .heading-text .mini-txt, .body-wrapper .container-sm .sales-row .part2 .card .heading-text .mini-txt, .body-wrapper .container-md .sales-row .part2 .card .heading-text .mini-txt, .body-wrapper .container-lg .sales-row .part2 .card .heading-text .mini-txt, .body-wrapper .container-xl .sales-row .part2 .card .heading-text .mini-txt, .body-wrapper .container-xxl .sales-row .part2 .card .heading-text .mini-txt {
+              color: #99abb4;
+              font-size: 13px;
+              font-weight: 400; }
+            .body-wrapper .container-fluid .sales-row .part2 .card .heading-text .year .select-box, .body-wrapper .container-sm .sales-row .part2 .card .heading-text .year .select-box, .body-wrapper .container-md .sales-row .part2 .card .heading-text .year .select-box, .body-wrapper .container-lg .sales-row .part2 .card .heading-text .year .select-box, .body-wrapper .container-xl .sales-row .part2 .card .heading-text .year .select-box, .body-wrapper .container-xxl .sales-row .part2 .card .heading-text .year .select-box {
+              color: #777e89;
+              background-color: #f1f9ff;
+              padding: 6px 32px 6px 10px;
+              font-size: 14px;
+              font-weight: 400;
+              border: none; }
+          .body-wrapper .container-fluid .sales-row .part2 .card .table-box .table, .body-wrapper .container-sm .sales-row .part2 .card .table-box .table, .body-wrapper .container-md .sales-row .part2 .card .table-box .table, .body-wrapper .container-lg .sales-row .part2 .card .table-box .table, .body-wrapper .container-xl .sales-row .part2 .card .table-box .table, .body-wrapper .container-xxl .sales-row .part2 .card .table-box .table {
+            vertical-align: middle; }
+            .body-wrapper .container-fluid .sales-row .part2 .card .table-box .table thead tr th, .body-wrapper .container-sm .sales-row .part2 .card .table-box .table thead tr th, .body-wrapper .container-md .sales-row .part2 .card .table-box .table thead tr th, .body-wrapper .container-lg .sales-row .part2 .card .table-box .table thead tr th, .body-wrapper .container-xl .sales-row .part2 .card .table-box .table thead tr th, .body-wrapper .container-xxl .sales-row .part2 .card .table-box .table thead tr th {
+              padding-bottom: 10px;
+              color: #99abb4;
+              border-bottom: 1px solid #ecf0f2; }
+            .body-wrapper .container-fluid .sales-row .part2 .card .table-box .table tbody tr td .main-name, .body-wrapper .container-sm .sales-row .part2 .card .table-box .table tbody tr td .main-name, .body-wrapper .container-md .sales-row .part2 .card .table-box .table tbody tr td .main-name, .body-wrapper .container-lg .sales-row .part2 .card .table-box .table tbody tr td .main-name, .body-wrapper .container-xl .sales-row .part2 .card .table-box .table tbody tr td .main-name, .body-wrapper .container-xxl .sales-row .part2 .card .table-box .table tbody tr td .main-name {
+              color: #11142d;
+              font-size: 14px;
+              font-weight: bold; }
+            .body-wrapper .container-fluid .sales-row .part2 .card .table-box .table tbody tr td .work, .body-wrapper .container-sm .sales-row .part2 .card .table-box .table tbody tr td .work, .body-wrapper .container-md .sales-row .part2 .card .table-box .table tbody tr td .work, .body-wrapper .container-lg .sales-row .part2 .card .table-box .table tbody tr td .work, .body-wrapper .container-xl .sales-row .part2 .card .table-box .table tbody tr td .work, .body-wrapper .container-xxl .sales-row .part2 .card .table-box .table tbody tr td .work {
+              color: #99abb4;
+              font-size: 13px;
+              font-weight: 400; }
+            .body-wrapper .container-fluid .sales-row .part2 .card .table-box .table tbody tr .work-name, .body-wrapper .container-sm .sales-row .part2 .card .table-box .table tbody tr .work-name, .body-wrapper .container-md .sales-row .part2 .card .table-box .table tbody tr .work-name, .body-wrapper .container-lg .sales-row .part2 .card .table-box .table tbody tr .work-name, .body-wrapper .container-xl .sales-row .part2 .card .table-box .table tbody tr .work-name, .body-wrapper .container-xxl .sales-row .part2 .card .table-box .table tbody tr .work-name {
+              color: #777e89;
+              font-size: 14px;
+              font-weight: 400; }
+            .body-wrapper .container-fluid .sales-row .part2 .card .table-box .table tbody tr .badge, .body-wrapper .container-sm .sales-row .part2 .card .table-box .table tbody tr .badge, .body-wrapper .container-md .sales-row .part2 .card .table-box .table tbody tr .badge, .body-wrapper .container-lg .sales-row .part2 .card .table-box .table tbody tr .badge, .body-wrapper .container-xl .sales-row .part2 .card .table-box .table tbody tr .badge, .body-wrapper .container-xxl .sales-row .part2 .card .table-box .table tbody tr .badge {
+              font-size: 12px;
+              font-weight: 400; }
 
 @media (max-width: 991px) {
   .body-wrapper .part1 {
@@ -7982,4 +8036,4 @@ a {
 
 @media (max-width: 767px) {
   .body-wrapper .overview-part .box1 {
-    height: 645px; } }
+    height: 645px !important; } }
