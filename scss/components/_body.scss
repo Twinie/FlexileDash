@@ -886,12 +886,29 @@
     .sales-row {
         height: 1090px !important;
 
+        .part1,
+        .part2 {
+            padding: 0 !important;
+        }
+
         .table-box {
             overflow: auto;
+        }
+    }
 
-            .part1,
-            .part2 {
-                padding: 0;
+    .activity-row {
+        margin: 0 !important;
+
+        .part2 {
+            padding-right: 0;
+        }
+
+        .part3 {
+            padding: 0;
+            margin-top: 30px;
+
+            .card3 {
+                height: 400px !important;
             }
         }
     }
@@ -913,8 +930,36 @@
         }
     }
 
+    .sales-row {
+        .part2 {
+            .card {
+                height: 535px !important;
+            }
+        }
+    }
+
     .sales-row .part2 .table-box tbody tr td {
         padding: 0.5rem 0.2rem;
+    }
+
+    .activity-row {
+        .part1 {
+            padding: 0 !important;
+        }
+
+        .part2 {
+            margin-top: 30px;
+            padding: 0;
+        }
+
+
+        .card1 {
+            .text {
+                .tag {
+                    justify-content: center;
+                }
+            }
+        }
     }
 }
 
@@ -924,12 +969,183 @@
     .body-wrapper .overview-part .box1 {
         height: 645px !important;
     }
+
+    .activity-row {
+        .part3 {
+            .card3 {
+                height: 390px !important;
+            }
+        }
+    }
 }
 
 
 
 @media (max-width: 575px) {
-    // .sales-row .part2 .table-box {
-    //     overflow: auto;
-    // }
+    .container-fluid {
+        padding: 20px 15px !important;
+    }
+}
+
+
+
+
+@media (max-width: 485px) {
+    .activity-row {
+        .card3 {
+            height: 440px !important;
+        }
+    }
+}
+
+
+
+@media (max-width: 484px) {
+    .activity-row {
+        .part3 {
+            .card3 {
+                height: 400px !important;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 454px) {
+    .activity-row {
+        .part3 {
+            .card3 {
+                height: 430px !important;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 452px) {
+    .topbar {
+        .navbar {
+            .navbar-header {
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .overview-part {
+        .box2 {
+            .right-text {
+                display: block !important;
+
+                .txt1 {
+                    margin-bottom: 3px !important;
+                }
+
+                .txt2 {
+                    margin-top: 3px !important;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media (max-width: 376px) {
+    .activity-row {
+        .part3 {
+            .card3 {
+                height: 440px !important;
+            }
+        }
+    }
+}
+
+
+
+
+@media (max-width: 365px) {
+    .activity-row {
+        .part3 {
+            .card3 {
+                height: 460px !important;
+            }
+        }
+    }
+}
+
+
+
+
+@media (max-width: 346px) {
+    .activity-row {
+        .part3 {
+            .card3 {
+                height: 490px !important;
+            }
+        }
+    }
+}
+
+
+
+
+@media (max-width: 344px) {
+    .activity-row {
+        .part3 {
+            .card3 {
+                height: 490px !important;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 340px) {
+    .main-heading {
+        .box {
+            .button {
+                .plus-icon {
+                    display: none !important;
+                }
+            }
+        }
+    }
+
+    .activity-row {
+        .part3 {
+            .card3 {
+                height: 490px !important;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 335px) {
+    .activity-row {
+        .part1 {
+            .card1 {
+                height: 525px !important;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 320px) {
+    .activity-row {
+        .part3 {
+            .card3 {
+                height: 500px !important;
+            }
+        }
+    }
 }
