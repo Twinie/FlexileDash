@@ -760,7 +760,8 @@
                     padding: 36px 30px;
                     border-radius: 20px;
                     height: 495px;
-                    background-color: red;
+                    background-color: white;
+                    // background-color: red;
 
                     .heading-text {
                         display: flex;
@@ -788,10 +789,90 @@
                             }
                         }
                     }
+
+
+
+                    .activity-box {
+                        .time {
+                            color: #11142d;
+                            font-size: 12px;
+                            font-weight: bold;
+                        }
+
+                        .activity-work {
+                            position: relative;
+                            margin-left: 15px;
+                            padding-left: 20px;
+                            border-left: 3px solid #ecf0f2;
+
+                            .ring-blue {
+                                position: absolute;
+                                content: "";
+                                width: 13px;
+                                height: 13px;
+                                background-color: white;
+                                border-radius: 50%;
+                                border: 3px solid $blue;
+                                top: 0;
+                                left: -8px;
+                            }
+
+                            .ring-info {
+                                position: absolute;
+                                content: "";
+                                width: 13px;
+                                height: 13px;
+                                background-color: white;
+                                border-radius: 50%;
+                                border: 3px solid $info;
+                                top: 0;
+                                left: -8px;
+                            }
+
+                            .ring-yellow {
+                                position: absolute;
+                                content: "";
+                                width: 13px;
+                                height: 13px;
+                                background-color: white;
+                                border-radius: 50%;
+                                border: 3px solid $yellow;
+                                top: 0;
+                                left: -8px;
+                            }
+
+                            .ring-pink {
+                                position: absolute;
+                                content: "";
+                                width: 13px;
+                                height: 13px;
+                                background-color: white;
+                                border-radius: 50%;
+                                border: 3px solid $pink;
+                                top: 0;
+                                left: -8px;
+                            }
+
+                            .ring-green {
+                                position: absolute;
+                                content: "";
+                                width: 13px;
+                                height: 13px;
+                                background-color: white;
+                                border-radius: 50%;
+                                border: 3px solid $green;
+                                top: 0;
+                                left: -8px;
+                            }
+
+                            .active {
+                                font-size: 14px;
+                            }
+                        }
+                    }
                 }
             }
         }
-
     }
 }
 
