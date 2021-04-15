@@ -7399,6 +7399,8 @@ a {
 .form-select {
   background-color: #f1f9ff; }
 
+.time,
+.chat-icon,
 .card-subtitle,
 .table-head,
 .subtitle-name {
@@ -7475,7 +7477,7 @@ a {
   overflow: auto;
   z-index: 9;
   border-right: 1px solid #ecf0f2;
-  transition: all 0.4s ease-in-out; }
+  transition: all 0.6s; }
   .sidebar .scrollbar {
     height: 100%;
     display: flex;
@@ -7603,7 +7605,7 @@ a {
   overflow: auto;
   z-index: 9;
   border-right: 1px solid #ecf0f2;
-  transition: all 0.4s ease-in-out; }
+  transition: all 0.6s; }
   .sidebar .scrollbar {
     height: 100%;
     display: flex;
@@ -7739,7 +7741,8 @@ a {
 .downloard .downloard-card {
   height: 217px;
   background-color: #e6f4ff;
-  background-image: url("../../assets/images/hero/1.png"); }
+  background-image: url("../../assets/images/hero/1.png");
+  background-repeat: no-repeat; }
 
 .downloard .downloard-text {
   font-weight: 500; }
@@ -7775,223 +7778,11 @@ a {
 .products .Performance-card {
   height: 515px; }
 
-.activity-row {
-  margin: 30px 0 0 0; }
-  .activity-row .part1 {
-    padding-left: 0; }
-    .activity-row .part1 .card1 {
-      overflow: hidden;
-      height: 495px;
-      border: 1px solid #ecf0f2;
-      border-radius: 20px; }
-      .activity-row .part1 .card1 .image {
-        width: 100%;
-        height: 205px;
-        background-color: #e6f6ff;
-        display: flex;
-        justify-content: center; }
-      .activity-row .part1 .card1 .cart-text {
-        padding: 30px 30px 0 30px; }
-        .activity-row .part1 .card1 .cart-text .text {
-          padding-bottom: 25px;
-          border-bottom: 1px solid #ecf0f2; }
-          .activity-row .part1 .card1 .cart-text .text .time {
-            color: #99abb4;
-            vertical-align: middle; }
-            .activity-row .part1 .card1 .cart-text .text .time .clock-icon {
-              color: #99abb4;
-              width: 20px;
-              height: 20px;
-              margin-right: 5px; }
-          .activity-row .part1 .card1 .cart-text .text .head-txt {
-            font-size: 21px;
-            font-weight: 500; }
-          .activity-row .part1 .card1 .cart-text .text .blue-badge {
-            background-color: #1e4db7 !important;
-            font-size: 12px;
-            font-weight: 400; }
-          .activity-row .part1 .card1 .cart-text .text .red-badge {
-            background-color: #fc4b6c !important;
-            font-size: 12px;
-            font-weight: 400; }
-      .activity-row .part1 .card1 .profile {
-        padding: 25px 30px; }
-        .activity-row .part1 .card1 .profile .profile-icon .plus .plus-icon {
-          color: #39cb7f;
-          background-color: #ebfaf2;
-          width: 40px;
-          height: 40px;
-          padding: 8px;
-          border-radius: 50%; }
-        .activity-row .part1 .card1 .profile .chat-icon {
-          color: #99abb4;
-          width: 40px;
-          height: 40px;
-          padding: 8px; }
-  .activity-row .part2 .card2 {
-    padding: 36px 30px;
-    border-radius: 20px;
-    height: 495px;
-    border: 1px solid #ecf0f2;
-    background-image: url("../../assets/images/hero/6.png"); }
-    .activity-row .part2 .card2 .heading-text {
-      display: flex;
-      align-items: center; }
-      .activity-row .part2 .card2 .heading-text .main-txt {
-        color: #11142d;
-        font-size: 21px;
-        font-weight: 500; }
-      .activity-row .part2 .card2 .heading-text .mini-txt {
-        color: #99abb4;
-        font-size: 13px;
-        font-weight: 400; }
-      .activity-row .part2 .card2 .heading-text .dropdown .btn {
-        color: #d3dde2; }
-        .activity-row .part2 .card2 .heading-text .dropdown .btn:hover {
-          color: #1a9bfc; }
-    .activity-row .part2 .card2 .sales-list .icon-bg-blue {
-      height: 50px;
-      width: 50px;
-      border-radius: 50%;
-      background-color: #1e4db7;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      .activity-row .part2 .card2 .sales-list .icon-bg-blue .icon {
-        color: #fff;
-        width: 20px;
-        height: 20px; }
-    .activity-row .part2 .card2 .sales-list .main-name {
-      color: #11142d;
-      font-size: 16px;
-      font-weight: bold; }
-    .activity-row .part2 .card2 .sales-list .mini-txt {
-      color: #99abb4;
-      font-size: 13px;
-      font-weight: 400; }
-    .activity-row .part2 .card2 .sales-list .icon-bg-yellow {
-      height: 50px;
-      width: 50px;
-      border-radius: 50%;
-      background-color: #fec90f;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      .activity-row .part2 .card2 .sales-list .icon-bg-yellow .icon {
-        color: #fff;
-        width: 20px;
-        height: 20px; }
-    .activity-row .part2 .card2 .sales-list .main-name {
-      color: #11142d;
-      font-size: 16px;
-      font-weight: bold; }
-    .activity-row .part2 .card2 .sales-list .mini-txt {
-      color: #99abb4;
-      font-size: 13px;
-      font-weight: 400; }
-    .activity-row .part2 .card2 .sales-list .icon-bg-green {
-      height: 50px;
-      width: 50px;
-      border-radius: 50%;
-      background-color: #39cb7f;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      .activity-row .part2 .card2 .sales-list .icon-bg-green .icon {
-        color: #fff;
-        width: 20px;
-        height: 20px; }
-    .activity-row .part2 .card2 .sales-list .main-name {
-      color: #11142d;
-      font-size: 16px;
-      font-weight: bold; }
-    .activity-row .part2 .card2 .sales-list .mini-txt {
-      color: #99abb4;
-      font-size: 13px;
-      font-weight: 400; }
-  .activity-row .part3 {
-    padding-right: 0; }
-    .activity-row .part3 .card3 {
-      padding: 36px 30px;
-      border-radius: 20px;
-      height: 495px;
-      background-color: white; }
-      .activity-row .part3 .card3 .heading-text {
-        display: flex;
-        align-items: center; }
-        .activity-row .part3 .card3 .heading-text .main-txt {
-          color: #11142d;
-          font-size: 21px;
-          font-weight: 500; }
-        .activity-row .part3 .card3 .heading-text .mini-txt {
-          color: #99abb4;
-          font-size: 13px;
-          font-weight: 400; }
-        .activity-row .part3 .card3 .heading-text .dropdown .btn {
-          color: #d3dde2; }
-          .activity-row .part3 .card3 .heading-text .dropdown .btn:hover {
-            color: #1a9bfc; }
-      .activity-row .part3 .card3 .activity-box .time {
-        color: #11142d;
-        font-size: 12px;
-        font-weight: bold; }
-      .activity-row .part3 .card3 .activity-box .activity-work {
-        position: relative;
-        margin-left: 15px;
-        padding-left: 20px;
-        border-left: 3px solid #ecf0f2; }
-        .activity-row .part3 .card3 .activity-box .activity-work .ring-blue {
-          position: absolute;
-          content: "";
-          width: 13px;
-          height: 13px;
-          background-color: white;
-          border-radius: 50%;
-          border: 3px solid #1e4db7;
-          top: 0;
-          left: -8px; }
-        .activity-row .part3 .card3 .activity-box .activity-work .ring-info {
-          position: absolute;
-          content: "";
-          width: 13px;
-          height: 13px;
-          background-color: white;
-          border-radius: 50%;
-          border: 3px solid #1a9bfc;
-          top: 0;
-          left: -8px; }
-        .activity-row .part3 .card3 .activity-box .activity-work .ring-yellow {
-          position: absolute;
-          content: "";
-          width: 13px;
-          height: 13px;
-          background-color: white;
-          border-radius: 50%;
-          border: 3px solid #fec90f;
-          top: 0;
-          left: -8px; }
-        .activity-row .part3 .card3 .activity-box .activity-work .ring-pink {
-          position: absolute;
-          content: "";
-          width: 13px;
-          height: 13px;
-          background-color: white;
-          border-radius: 50%;
-          border: 3px solid #d63384;
-          top: 0;
-          left: -8px; }
-        .activity-row .part3 .card3 .activity-box .activity-work .ring-green {
-          position: absolute;
-          content: "";
-          width: 13px;
-          height: 13px;
-          background-color: white;
-          border-radius: 50%;
-          border: 3px solid #39cb7f;
-          top: 0;
-          left: -8px; }
-        .activity-row .part3 .card3 .activity-box .activity-work .active {
-          font-size: 14px; }
+.angular-row .card {
+  height: 494px; }
+
+.angular-row .angular-img {
+  background-color: #e6f6ff; }
 
 @media (max-width: 1199px) {
   .sales-row {
