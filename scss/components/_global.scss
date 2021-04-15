@@ -7,4 +7,25 @@ a {
     text-decoration: none;
 }
 
+.card {
+    border: $card-border;
+}
 
+// .card-subtitle {
+//     color: $mainly-blue
+// }
+
+.form-select {
+    background-color: $aliceblue;
+}
+
+.card-subtitle,
+.table-head,
+.subtitle-name {
+    color: $mainly-blue;
+}
+
+.badge {
+    font-size: 12px;
+    font-weight: 400;
+}
