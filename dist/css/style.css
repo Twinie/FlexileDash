@@ -1317,7 +1317,7 @@ progress {
   margin-bottom: 1rem;
   color: #212529;
   vertical-align: top;
-  border-color: #f00; }
+  border-color: #ecf0f2; }
   .table > :not(caption) > * > * {
     padding: 0.5rem 0.5rem;
     background-color: var(--bs-table-bg);
@@ -3966,7 +3966,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1rem;
-  border-bottom: 1px solid #f00;
+  border-bottom: 1px solid #ecf0f2;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px); }
   .modal-header .btn-close {
@@ -3989,7 +3989,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: flex-end;
   padding: 0.75rem;
-  border-top: 1px solid #f00;
+  border-top: 1px solid #ecf0f2;
   border-bottom-right-radius: calc(0.3rem - 1px);
   border-bottom-left-radius: calc(0.3rem - 1px); }
   .modal-footer > * {
@@ -4833,31 +4833,31 @@ textarea.form-control-lg {
   transform: translateY(-50%) !important; }
 
 .border {
-  border: 1px solid #f00 !important; }
+  border: 1px solid #ecf0f2 !important; }
 
 .border-0 {
   border: 0 !important; }
 
 .border-top {
-  border-top: 1px solid #f00 !important; }
+  border-top: 1px solid #ecf0f2 !important; }
 
 .border-top-0 {
   border-top: 0 !important; }
 
 .border-end {
-  border-right: 1px solid #f00 !important; }
+  border-right: 1px solid #ecf0f2 !important; }
 
 .border-end-0 {
   border-right: 0 !important; }
 
 .border-bottom {
-  border-bottom: 1px solid #f00 !important; }
+  border-bottom: 1px solid #ecf0f2 !important; }
 
 .border-bottom-0 {
   border-bottom: 0 !important; }
 
 .border-start {
-  border-left: 1px solid #f00 !important; }
+  border-left: 1px solid #ecf0f2 !important; }
 
 .border-start-0 {
   border-left: 0 !important; }
@@ -7394,7 +7394,7 @@ a {
   text-decoration: none; }
 
 .card {
-  border: 1px solid #f00; }
+  border: 1px solid #ecf0f2; }
 
 .form-select {
   background-color: #f1f9ff; }
@@ -7812,7 +7812,7 @@ a {
   color: #d3dde2; }
 
 .daily-activity .work {
-  border-left: 3px solid #f00;
+  border-left: 3px solid #ecf0f2;
   position: relative; }
   .daily-activity .work .circle {
     content: "";
