@@ -142,56 +142,15 @@
 
 
 @media (max-width: 1199px) {
-    
+    .activity-card {
+        height: 420px !important;
+    }
 }
 
 
 
 @media (max-width: 991px) {
-    .body-wrapper .part1 {
-        text-align: center;
-
-    }
-
-    .body-wrapper .part2 {
-        .box {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-        }
-    }
-
-    .sales-row {
-        .part2 {
-            .card {
-                height: 535px !important;
-            }
-        }
-    }
-
-    .sales-row .part2 .table-box tbody tr td {
-        padding: 0.5rem 0.2rem;
-    }
-
-    .activity-row {
-        .part1 {
-            padding: 0 !important;
-        }
-
-        .part2 {
-            margin-top: 30px;
-            padding: 0;
-        }
-
-
-        .card1 {
-            .text {
-                .tag {
-                    justify-content: center;
-                }
-            }
-        }
-    }
+   
 }
 
 
@@ -221,80 +180,13 @@
 
 
 
-@media (max-width: 485px) {
-    .activity-row {
-        .card3 {
-            height: 440px !important;
-        }
+@media (max-width: 499px) {
+    .Performance-card {
+        height: 550px !important;
     }
 }
 
 
-
-@media (max-width: 484px) {
-    .activity-row {
-        .part3 {
-            .card3 {
-                height: 400px !important;
-            }
-        }
-    }
-}
-
-
-
-@media (max-width: 454px) {
-    .activity-row {
-        .part3 {
-            .card3 {
-                height: 430px !important;
-            }
-        }
-    }
-}
-
-
-
-@media (max-width: 452px) {
-    .topbar {
-        .navbar {
-            .navbar-header {
-                img {
-                    // display: none;
-                }
-            }
-        }
-    }
-
-    .overview-part {
-        .box2 {
-            .right-text {
-                display: block !important;
-
-                .txt1 {
-                    margin-bottom: 3px !important;
-                }
-
-                .txt2 {
-                    margin-top: 3px !important;
-                }
-            }
-        }
-    }
-}
-
-
-
-
-@media (max-width: 376px) {
-    .activity-row {
-        .part3 {
-            .card3 {
-                height: 440px !important;
-            }
-        }
-    }
-}
 
 
 
@@ -305,12 +197,6 @@
             .card3 {
                 height: 460px !important;
             }
-        }
-    }
-
-    .topbar {
-        .toggle-minimize {
-            color: red;
         }
     }
 
@@ -327,73 +213,3 @@
 }
 
 
-
-
-@media (max-width: 346px) {
-    .activity-row {
-        .part3 {
-            .card3 {
-                height: 490px !important;
-            }
-        }
-    }
-}
-
-
-
-
-@media (max-width: 344px) {
-    .activity-row {
-        .part3 {
-            .card3 {
-                height: 490px !important;
-            }
-        }
-    }
-}
-
-
-
-@media (max-width: 340px) {
-    .main-heading {
-        .box {
-            .button {
-                .plus-icon {
-                    display: none !important;
-                }
-            }
-        }
-    }
-
-    .activity-row {
-        .part3 {
-            .card3 {
-                height: 490px !important;
-            }
-        }
-    }
-}
-
-
-
-@media (max-width: 335px) {
-    .activity-row {
-        .part1 {
-            .card1 {
-                height: 525px !important;
-            }
-        }
-    }
-}
-
-
-
-@media (max-width: 320px) {
-    .activity-row {
-        .part3 {
-            .card3 {
-                height: 500px !important;
-            }
-        }
-    }
-}
