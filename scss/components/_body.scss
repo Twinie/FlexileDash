@@ -138,7 +138,7 @@
 
 
 
-
+// Media Query //
 
 
 @media (max-width: 1199px) {
@@ -149,25 +149,9 @@
 
 
 
-@media (max-width: 991px) {
-   
-}
+@media (max-width: 991px) {}
 
 
-
-@media (max-width: 767px) {
-    .body-wrapper .overview-part .box1 {
-        height: 645px !important;
-    }
-
-    .activity-row {
-        .part3 {
-            .card3 {
-                height: 390px !important;
-            }
-        }
-    }
-}
 
 
 
@@ -189,6 +173,19 @@
 
 
 
+@media (max-width: 468px) {
+    .activity-card {
+        height: 450px !important;
+    }
+}
+
+
+
+@media (max-width: 439px) {
+    .activity-card {
+        height: 470px !important;
+    }
+}
 
 
 @media (max-width: 365px) {
@@ -209,6 +206,30 @@
         a {
             margin: 0 !important;
         }
+    }
+}
+
+
+
+@media (max-width: 350px) {
+    .activity-card {
+        height: 500px !important;
+    }
+}
+
+
+
+@media (max-width: 331px) {
+    .activity-card {
+        height: 520px !important;
+    }
+}
+
+
+
+@media (max-width: 331px) {
+    .activity-card {
+        height: 550px !important;
     }
 }
 
