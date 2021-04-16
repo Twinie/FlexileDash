@@ -91,11 +91,38 @@
 
 .angular-row {
     .card {
-        height: 494px;
+        height: 495px;
     }
 
     .angular-img {
         background-color: #e6f6ff;
+    }
+
+    .stats-card {
+        height: 495px;
+        background-image: url("../../assets/images/hero/6.png");
+    }
+
+    .btn {
+        color: $harmonies;
+    }
+
+}
+
+.daily-activity .work {
+    border-left: 3px solid $border-color;
+    position: relative;
+
+    .circle {
+        content: "";
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        border: 3px solid;
+        border-radius: 50%;
+        top: 0;
+        left: -8px;
+        background-color: $white;
     }
 }
 
@@ -114,40 +141,8 @@
 
 
 
-
-
-
-
 @media (max-width: 1199px) {
-    .sales-row {
-        height: 1090px !important;
-
-        .part1,
-        .part2 {
-            padding: 0 !important;
-        }
-
-        .table-box {
-            overflow: auto;
-        }
-    }
-
-    .activity-row {
-        margin: 0 !important;
-
-        .part2 {
-            padding-right: 0;
-        }
-
-        .part3 {
-            padding: 0;
-            margin-top: 30px;
-
-            .card3 {
-                height: 400px !important;
-            }
-        }
-    }
+    
 }
 
 
@@ -265,7 +260,7 @@
         .navbar {
             .navbar-header {
                 img {
-                    display: none;
+                    // display: none;
                 }
             }
         }
@@ -310,6 +305,23 @@
             .card3 {
                 height: 460px !important;
             }
+        }
+    }
+
+    .topbar {
+        .toggle-minimize {
+            color: red;
+        }
+    }
+
+    .navbar-header {
+        width: 200px;
+        padding: 0;
+        display: flex !important;
+        justify-content: center !important;
+
+        a {
+            margin: 0 !important;
         }
     }
 }

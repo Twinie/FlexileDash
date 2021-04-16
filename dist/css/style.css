@@ -7400,6 +7400,7 @@ a {
   background-color: #f1f9ff; }
 
 .time,
+.subtitle,
 .chat-icon,
 .card-subtitle,
 .table-head,
@@ -7410,6 +7411,9 @@ a {
   font-size: 12px;
   font-weight: 400; }
 
+.badge-background {
+  background-color: #e7e9f0; }
+
 .topbar {
   background-color: #fff;
   width: 100%;
@@ -7417,6 +7421,8 @@ a {
   z-index: 1; }
   .topbar .navbar {
     padding: 0; }
+    .topbar .navbar .toggle-minimize {
+      color: rgba(0, 0, 0, 0.55); }
     .topbar .navbar .navbar-header {
       display: flex;
       justify-content: space-between;
@@ -7433,9 +7439,30 @@ a {
         height: 96px;
         line-height: 96px;
         flex-direction: row; }
-        .topbar .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
-          padding: 0 10px;
+        .topbar .navbar .navbar-collapse .navbar-nav .nav-item .message-button {
           position: relative; }
+          .topbar .navbar .navbar-collapse .navbar-nav .nav-item .message-button .icon {
+            color: #949db2; }
+          .topbar .navbar .navbar-collapse .navbar-nav .nav-item .message-button .notify > .yellow-point {
+            position: absolute;
+            content: "";
+            border-radius: 50%;
+            width: 6px;
+            height: 6px;
+            background-color: #fec90f;
+            top: 2px;
+            right: 6px; }
+          .topbar .navbar .navbar-collapse .navbar-nav .nav-item .message-button .notify > .blue-point {
+            position: absolute;
+            content: "";
+            border-radius: 50%;
+            width: 6px;
+            height: 6px;
+            background-color: #1e4db7;
+            top: 2px;
+            right: 6px; }
+        .topbar .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+          padding: 0 10px; }
           .topbar .navbar .navbar-collapse .navbar-nav .nav-item .nav-link .icon {
             color: #949db2;
             font-size: 24px; }
@@ -7505,10 +7532,10 @@ a {
         border-radius: 10px;
         margin: 2px 0; }
         .sidebar .scrollbar .side-nav .list-group .sidelist-item:hover {
-          background-color: #1a9bfc; }
+          background-color: #e7e9f0; }
           .sidebar .scrollbar .side-nav .list-group .sidelist-item:hover .sidelist-link .icon,
           .sidebar .scrollbar .side-nav .list-group .sidelist-item:hover .sidelist-link .icon-name {
-            color: #fff; }
+            color: #495057; }
         .sidebar .scrollbar .side-nav .list-group .sidelist-item.active {
           background-color: #1a9bfc; }
           .sidebar .scrollbar .side-nav .list-group .sidelist-item.active .sidelist-link .icon,
@@ -7544,10 +7571,10 @@ a {
         border-radius: 10px;
         margin: 2px 0; }
         .sidebar .scrollbar .side-nav .list-group2 .sidelist-item:hover {
-          background-color: #1a9bfc; }
+          background-color: #e7e9f0; }
           .sidebar .scrollbar .side-nav .list-group2 .sidelist-item:hover .sidelist-link .icon,
           .sidebar .scrollbar .side-nav .list-group2 .sidelist-item:hover .sidelist-link .icon-name {
-            color: #fff; }
+            color: #495057; }
         .sidebar .scrollbar .side-nav .list-group2 .sidelist-item.active {
           background-color: #1a9bfc; }
           .sidebar .scrollbar .side-nav .list-group2 .sidelist-item.active .sidelist-link .icon,
@@ -7576,25 +7603,21 @@ a {
           font-size: 18px;
           font-weight: bold; }
 
-@media (min-width: 767px) {
+@media (min-width: 991px) {
   .sidebar {
     left: 0px; }
     .sidebar.show-sidebar {
-      left: -265px; } }
-
-@media (max-width: 767px) {
-  .sidebar {
-    left: -265px; }
-    .sidebar.show-sidebar {
-      left: 0; } }
-
-@media (min-width: 991px) {
+      left: -265px; }
   .sidebar.show-sidebar + .body-wrapper {
     margin-left: 0; } }
 
 @media (max-width: 991px) {
-  .sidebar.show-sidebar + .body-wrapper {
-    margin-left: 0; } }
+  .sidebar {
+    left: -265px; }
+    .sidebar.show-sidebar {
+      left: 0; }
+  .sidebar.show-sidebar + .body-wrapper, .body-wrapper {
+    margin-left: 0 !important; } }
 
 .sidebar {
   background-color: #fff;
@@ -7633,10 +7656,10 @@ a {
         border-radius: 10px;
         margin: 2px 0; }
         .sidebar .scrollbar .side-nav .list-group .sidelist-item:hover {
-          background-color: #1a9bfc; }
+          background-color: #e7e9f0; }
           .sidebar .scrollbar .side-nav .list-group .sidelist-item:hover .sidelist-link .icon,
           .sidebar .scrollbar .side-nav .list-group .sidelist-item:hover .sidelist-link .icon-name {
-            color: #fff; }
+            color: #495057; }
         .sidebar .scrollbar .side-nav .list-group .sidelist-item.active {
           background-color: #1a9bfc; }
           .sidebar .scrollbar .side-nav .list-group .sidelist-item.active .sidelist-link .icon,
@@ -7672,10 +7695,10 @@ a {
         border-radius: 10px;
         margin: 2px 0; }
         .sidebar .scrollbar .side-nav .list-group2 .sidelist-item:hover {
-          background-color: #1a9bfc; }
+          background-color: #e7e9f0; }
           .sidebar .scrollbar .side-nav .list-group2 .sidelist-item:hover .sidelist-link .icon,
           .sidebar .scrollbar .side-nav .list-group2 .sidelist-item:hover .sidelist-link .icon-name {
-            color: #fff; }
+            color: #495057; }
         .sidebar .scrollbar .side-nav .list-group2 .sidelist-item.active {
           background-color: #1a9bfc; }
           .sidebar .scrollbar .side-nav .list-group2 .sidelist-item.active .sidelist-link .icon,
@@ -7704,25 +7727,21 @@ a {
           font-size: 18px;
           font-weight: bold; }
 
-@media (min-width: 767px) {
+@media (min-width: 991px) {
   .sidebar {
     left: 0px; }
     .sidebar.show-sidebar {
-      left: -265px; } }
-
-@media (max-width: 767px) {
-  .sidebar {
-    left: -265px; }
-    .sidebar.show-sidebar {
-      left: 0; } }
-
-@media (min-width: 991px) {
+      left: -265px; }
   .sidebar.show-sidebar + .body-wrapper {
     margin-left: 0; } }
 
 @media (max-width: 991px) {
-  .sidebar.show-sidebar + .body-wrapper {
-    margin-left: 0; } }
+  .sidebar {
+    left: -265px; }
+    .sidebar.show-sidebar {
+      left: 0; }
+  .sidebar.show-sidebar + .body-wrapper, .body-wrapper {
+    margin-left: 0 !important; } }
 
 .body-wrapper {
   padding-top: 96px;
@@ -7779,28 +7798,31 @@ a {
   height: 515px; }
 
 .angular-row .card {
-  height: 494px; }
+  height: 495px; }
 
 .angular-row .angular-img {
   background-color: #e6f6ff; }
 
-@media (max-width: 1199px) {
-  .sales-row {
-    height: 1090px !important; }
-    .sales-row .part1,
-    .sales-row .part2 {
-      padding: 0 !important; }
-    .sales-row .table-box {
-      overflow: auto; }
-  .activity-row {
-    margin: 0 !important; }
-    .activity-row .part2 {
-      padding-right: 0; }
-    .activity-row .part3 {
-      padding: 0;
-      margin-top: 30px; }
-      .activity-row .part3 .card3 {
-        height: 400px !important; } }
+.angular-row .stats-card {
+  height: 495px;
+  background-image: url("../../assets/images/hero/6.png"); }
+
+.angular-row .btn {
+  color: #d3dde2; }
+
+.daily-activity .work {
+  border-left: 3px solid #ecf0f2;
+  position: relative; }
+  .daily-activity .work .circle {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border: 3px solid;
+    border-radius: 50%;
+    top: 0;
+    left: -8px;
+    background-color: #fff; }
 
 @media (max-width: 991px) {
   .body-wrapper .part1 {
@@ -7850,8 +7872,6 @@ a {
     height: 430px !important; } }
 
 @media (max-width: 452px) {
-  .topbar .navbar .navbar-header img {
-    display: none; }
   .overview-part .box2 .right-text {
     display: block !important; }
     .overview-part .box2 .right-text .txt1 {
@@ -7865,7 +7885,16 @@ a {
 
 @media (max-width: 365px) {
   .activity-row .part3 .card3 {
-    height: 460px !important; } }
+    height: 460px !important; }
+  .topbar .toggle-minimize {
+    color: red; }
+  .navbar-header {
+    width: 200px;
+    padding: 0;
+    display: flex !important;
+    justify-content: center !important; }
+    .navbar-header a {
+      margin: 0 !important; } }
 
 @media (max-width: 346px) {
   .activity-row .part3 .card3 {

@@ -7,6 +7,10 @@
     .navbar {
         padding: 0;
 
+        .toggle-minimize {
+            color: rgba(0, 0, 0, .55);
+        }
+
         .navbar-header {
             display: flex;
             justify-content: space-between;
@@ -32,9 +36,41 @@
                 .nav-item {
                     // margin-right: auto;
 
+                    .message-button {
+                        position: relative;
+
+                        .icon {
+                            color: $gray;
+                        }
+
+                        .notify>.yellow-point {
+                            position: absolute;
+                            content: "";
+                            border-radius: 50%;
+                            width: 6px;
+                            height: 6px;
+                            background-color: $warning;
+                            top: 2px;
+                            right: 6px;
+
+                        }
+
+                        .notify>.blue-point {
+                            position: absolute;
+                            content: "";
+                            border-radius: 50%;
+                            width: 6px;
+                            height: 6px;
+                            background-color: #1e4db7;
+                            top: 2px;
+                            right: 6px;
+
+                        }
+                    }
+
                     .nav-link {
                         padding: 0 10px;
-                        position: relative;
+                        // position: relative;
 
                         .icon {
                             color: #949db2;

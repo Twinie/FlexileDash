@@ -37,7 +37,7 @@
 <body>
 
 
-    <div class="main-wrapper">
+    <div class="main-wrapper overflow-hidden">
 
         <!-- Header Start -->
         <header class="topbar">
@@ -69,36 +69,52 @@
                     </ul>
                     <ul class="navbar-nav pe-1 ms-lg-auto ms-3">
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i data-feather="shopping-cart" class="icon"></i></a>
+                            <a class="nav-link me-2" href="#"><i data-feather="shopping-cart" class="icon"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i data-feather="message-square" class="icon"></i>
-                                <div class="notify">
-                                    <span class="yellow-point"></span>
-                                </div>
-                            </a>
+                            <div class="dropdown m-0">
+                                <button class="btn message-button" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i data-feather="message-square" class="icon"></i>
+                                    <div class="notify">
+                                        <span class="yellow-point"></span>
+                                    </div>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li class="lh-sm"><a class="dropdown-item" href="#">Action</a></li>
+                                    <li class="lh-sm"><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li class="lh-sm"><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i data-feather="bell" class="icon"></i>
-                                <div class="notify">
-                                    <span class="blue-point"></span>
-                                </div>
-                            </a>
+                            <div class="dropdown m-0">
+                                <button class="btn message-button" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i data-feather="bell" class="icon"></i>
+                                    <div class="notify">
+                                        <span class="blue-point"></span>
+                                    </div>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li class="lh-sm"><a class="dropdown-item" href="#">Action</a></li>
+                                    <li class="lh-sm"><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li class="lh-sm"><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
                         </li>
                         <div class="dropdown d-flex align-items-center">
-                            <button class="btn shadow-none  border-start rounded-0" type="button"
+                            <button class="btn profile-button shadow-none  border-start rounded-0" type="button"
                                 id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img class="px-2 profile" src="./assets/images/icon/profile.png" alt=""><span
                                     class="d-none d-sm-inline text-muted">Hi,<span class="name text-dark"
                                         style="font-weight: 700; color: #11142d;">Johnathan</span></span><i
                                     data-feather="chevron-down"></i>
                             </button>
-                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <ul class="dropdown-menu profile-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item lh-sm" href="#">Action</a></li>
+                                <li><a class="dropdown-item lh-sm" href="#">Another action</a></li>
+                                <li><a class="dropdown-item lh-sm" href="#">Something else here</a></li>
                             </ul>
                         </div>
                     </ul>
@@ -247,7 +263,7 @@
                 <div class="row downloard g-4">
                     <!-- Downlord Start -->
                     <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                        <div class="card downloard-card border-0">
+                        <div class="card overflow-hidden downloard-card border-0">
                             <div class="card-body p-5 d-flex align-items-center">
                                 <div>
                                     <p class="text-primary fs-6 lh-base fw-medium mb-3 downloard-text">Hey John,<br>
@@ -260,11 +276,11 @@
 
 
 
-                        <div class="row mt-4">
+                        <div class="row">
 
                             <!-- Earnings Start -->
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                <div class="card bg-primary border-0" style="height: 187px;">
+                                <div class="card overflow-hidden bg-primary border-0 mt-4">
                                     <div class="card-body p-4">
                                         <div class="d-flex justify-content-between align-items-center mb-4">
                                             <h4 class="text-white fs-5 fw-bold">Earnings</h4>
@@ -284,7 +300,7 @@
 
                             <!-- Monthly Sales Start -->
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                <div class="card bg-white overflow-hidden sales-card">
+                                <div class="card overflow-hidden bg-white overflow-hidden sales-card mt-4">
                                     <div class="card-body p-4">
                                         <div class="d-flex justify-content-between align-items-center mb-4">
                                             <div class="text">
@@ -311,7 +327,7 @@
 
                     <!-- Overview Start -->
                     <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                        <div class="card overview-card">
+                        <div class="card overflow-hidden overview-card">
                             <div class="card-body p-4">
                                 <div class="d-md-flex align-items-center">
                                     <div>
@@ -365,11 +381,11 @@
 
 
 
-                <div class="row products mt-4">
+                <div class="row products">
 
                     <!-- Total Sales Start -->
                     <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12">
-                        <div class="card total-sales-card">
+                        <div class="card overflow-hidden total-sales-card mt-4">
                             <div class="card-body p-4">
                                 <div class="d-sm-flex justify-content-between border-bottom mb-4">
                                     <div>
@@ -390,16 +406,16 @@
                                     <h3 class="fs-7 m-0">8,364,398</h3>
                                 </div>
                                 <div class="image mt-4 d-flex justify-content-center">
-                                    <img src="./assets/images/hero/4.png" alt="">
+                                    <img src="./assets/images/hero/4.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="year d-flex justify-content-around mt-5 align-items-center">
-                                    <p class="year1"><i data-feather="circle"
+                                    <p class="year1 text-muted"><i data-feather="circle"
                                             class="circle-icon bg-info rounded-circle border-0 text-info me-1"></i> 2021
                                     </p>
-                                    <p class="year2"><i data-feather="circle"
+                                    <p class="year2 text-muted"><i data-feather="circle"
                                             class="circle-icon bg-primary rounded-circle border-0 text-primary me-1"></i>
                                         2020</p>
-                                    <p class="year3"><i data-feather="circle"
+                                    <p class="year3 text-muted"><i data-feather="circle"
                                             class="circle-icon bg-warning rounded-circle border-0 text-warning me-1"></i>
                                         2019</p>
                                 </div>
@@ -412,8 +428,8 @@
 
                     <!-- Product Performance Start -->
                     <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12">
-                        <div class="card Performance-card">
-                            <div class="card-body p-4">
+                        <div class="card Performance-card mt-4">
+                            <div class="card-body overflow-auto p-4">
                                 <div class="d-sm-flex justify-content-between mb-4">
                                     <div>
                                         <h3 class="card-title fs-6 fw-medium">Products Performance</h3>
@@ -431,7 +447,7 @@
 
 
 
-                                <div class="table-sction">
+                                <div class="table-sction overflow-auto">
                                     <table class="table mb-0 align-middle">
                                         <thead>
                                             <tr>
@@ -555,9 +571,11 @@
 
 
 
-                <div class="row angular-row mt-4">
+                <div class="row angular-row">
+
+                    <!-- Angular 12 Start -->
                     <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
-                        <div class="card overflow-hidden">
+                        <div class="card overflow-hidden mt-4">
                             <div class="image angular-img d-flex justify-content-center" style="height: 205px;">
                                 <img src="./assets/images/hero/5.jpg" alt="">
                             </div>
@@ -586,242 +604,203 @@
                             </div>
                         </div>
                     </div>
+                    <!-- Angular 12 End -->
 
 
 
 
 
+                    <!-- Weekly Stats Start -->
                     <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
-
-                    </div>
-
-
-
-
-
-                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
-
-                    </div>
-                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <!-- Last Content Start -->
-                <div class="row activity-row gx-4">
-                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 part1">
-                        
-                    </div>
-
-
-
-                    <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 part2">
-                        <div class="card card2">
-                            <div class="heading-text d-flex justify-content-between">
-                                <div class="text">
-                                    <h3 class="main-txt">Total Sales</h3>
-                                    <p class="mini-txt m-0">Overview of Years</p>
-                                </div>
-                                <div class="dropdown">
-                                    <a class="btn" href="#" role="button" id="dropdownMenuLink"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i data-feather="more-horizontal"></i>
-                                    </a>
-
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-
-                            <div class="sales-list mt-3">
-                                <div class="d-flex py-3 align-items-center justify-content-between">
-                                    <div class="d-flex align-items-center">
-                                        <div class="me-3 icon-bg-blue"><i data-feather="shopping-cart" class="icon"></i>
-                                        </div>
-                                        <div>
-                                            <h5 class="m-0 main-name">Top Sales</h5>
-                                            <p class="m-0 mini-txt">Johnathan Doe</p>
-                                        </div>
+                        <div class="card stats-card mt-4">
+                            <div class="card-body p-4">
+                                <div class="d-sm-flex justify-content-between mb-2">
+                                    <div>
+                                        <h3 class="card-title fs-6 fw-medium">Weekly Stats</h3>
+                                        <p class="card-subtitle mb-3 fs-3 fw-normal">Average sales</p>
                                     </div>
                                     <div>
-                                        <div class="badge bg-success text-common">+68%</div>
-                                    </div>
-                                </div>
-                                <div class="d-flex py-3 align-items-center justify-content-between">
-                                    <div class="d-flex align-items-center">
-                                        <div class="me-3 icon-bg-yellow"><i data-feather="star" class="icon"></i></div>
-                                        <div>
-                                            <h5 class="m-0  main-name">Best Seller</h5>
-                                            <p class="m-0 mini-txt">MaterialPro Admin</p>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="badge bg-success text-common">+68%</div>
-                                    </div>
-                                </div>
-                                <div class="d-flex py-3 align-items-center justify-content-between">
-                                    <div class="d-flex align-items-center">
-                                        <div class="me-3 icon-bg-green"><i data-feather="message-square"
-                                                class="icon"></i>
-                                        </div>
-                                        <div>
-                                            <h5 class="m-0 main-name">Most Commented</h5>
-                                            <p class="m-0 mini-txt">Ample Admin</p>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="badge bg-success text-common">+68%</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                        <div class="dropdown">
+                                            <a class="btn" href="#" role="button" id="dropdownMenuLink"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i data-feather="more-horizontal"></i>
+                                            </a>
 
-
-
-                    <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 part3">
-                        <div class="card card3">
-                            <div class="heading-text d-flex justify-content-between">
-                                <div class="text">
-                                    <h3 class="main-txt">Daily Activities</h3>
-                                    <p class="mini-txt m-0">Overview of Years</p>
-                                </div>
-                                <div class="dropdown">
-                                    <a class="btn" href="#" role="button" id="dropdownMenuLink"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i data-feather="more-horizontal"></i>
-                                    </a>
-
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-
-
-                            <div class="activity-box mt-5">
-                                <div class="d-flex content">
-                                    <p class="time">09:46</p>
-                                    <div class="activity-work">
-                                        <div class="ring-blue"></div>
-                                        <div>
-                                            <p class="active lh-sm text-muted">Payment received from John Doe of $385.90
-                                            </p>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="d-flex content">
-                                    <h6 class="time">09:46</h6>
-                                    <div class="activity-work">
-                                        <div class="ring-info"></div>
+
+                                <div>
+                                    <div class="d-flex align-items-center justify-content-between py-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="rounded bg-primary rounded-circle me-3 p-3"><i
+                                                    data-feather="shopping-cart" class="text-white" width="20px"
+                                                    height="20px"></i></div>
+                                            <div>
+                                                <h5 class="fs-4 fw-bold mb-1">Top Sales</h5>
+                                                <p class="subtitle fs-3 m-0">Johnathan Doe</p>
+                                            </div>
+                                        </div>
                                         <div>
-                                            <p class="active lh-sm fw-bold text-black">Project meeting</p>
+                                            <div class="badge badge-background text-muted">+68%</div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="d-flex content">
-                                    <p class="time">09:46</p>
-                                    <div class="activity-work">
-                                        <div class="ring-yellow"></div>
+                                    <div class="d-flex align-items-center justify-content-between py-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="rounded bg-warning rounded-circle me-3 p-3"><i
+                                                    data-feather="star" class="text-white" width="20px"
+                                                    height="20px"></i></div>
+                                            <div>
+                                                <h5 class="fs-4 fw-bold mb-1">Best Seller</h5>
+                                                <p class="subtitle fs-3 m-0">MaterialPro Admin</p>
+                                            </div>
+                                        </div>
                                         <div>
-                                            <p class="active lh-sm fw-bold text-black">New sale recorded <a href="#"
-                                                    class="text-info">#ML-3467</a></p>
+                                            <div class="badge badge-background text-muted">+68%</div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="d-flex content">
-                                    <p class="time">09:46</p>
-                                    <div class="activity-work">
-                                        <div class="ring-pink"></div>
-                                        <div>
-                                            <p class="active lh-sm text-muted">Payment was made of $64.95 to Michael
-                                                Anderson</p>
+                                    <div class="d-flex align-items-center justify-content-between py-3">
+                                        <div class="d-flex align-items-center">
+                                            <div class="rounded bg-success rounded-circle me-3 p-3"><i
+                                                    data-feather="message-square" class="text-white" width="20px"
+                                                    height="20px"></i></div>
+                                            <div>
+                                                <h5 class="fs-4 fw-bold mb-1">Most Commented</h5>
+                                                <p class="subtitle fs-3 m-0">Ample Admin</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="d-flex content">
-                                    <p class="time">09:46</p>
-                                    <div class="activity-work">
-                                        <div class="ring-green"></div>
                                         <div>
-                                            <p class="active lh-sm text-muted">New payment receipt created for Alphanso
-                                                Golvo</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-flex content">
-                                    <p class="time">09:46</p>
-                                    <div class="activity-work">
-                                        <div class="ring-blue"></div>
-                                        <div>
-                                            <p class="active lh-sm text-black fw-bold">New sale recorded <a href="#"
-                                                    class="text-info">#ML-3467</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-flex content">
-                                    <p class="time">09:46</p>
-                                    <div class="activity-work border-white">
-                                        <div class="ring-info"></div>
-                                        <div>
-                                            <p class="active lh-sm text-black fw-bold">Project meeting</p>
+                                            <div class="badge badge-background text-muted">+68%</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- Weekly Stats End -->
+
+
+
+
+
+                    <!-- Activities Start -->
+                    <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12">
+                        <div class="card mt-4">
+                            <div class="card-body p-4">
+                                <div class="d-sm-flex justify-content-between mb-2">
+                                    <div>
+                                        <h3 class="card-title fs-6 fw-medium">Daily Activities</h3>
+                                        <p class="card-subtitle mb-3 fs-3 fw-normal">Overview of Years</p>
+                                    </div>
+                                    <div>
+                                        <div class="dropdown">
+                                            <a class="btn" href="#" role="button" id="dropdownMenuLink"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i data-feather="more-horizontal"></i>
+                                            </a>
+
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="daily-activity mt-4">
+                                    <div class="d-flex">
+                                        <h6 class="fs-2 fw-bold">09:46</h6>
+                                        <div class="work ms-3 ps-3 border-left pb-2">
+                                            <div class="circle border-primary"></div>
+                                            <div>
+                                                <p class="text-muted fs-3 lh-base fw-normal">Payment received from John
+                                                    Doe of
+                                                    $385.90</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <h6 class="fs-2 fw-bold">09:46</h6>
+                                        <div class="work ms-3 ps-3 border-left pb-2">
+                                            <div class="circle border-info"></div>
+                                            <div>
+                                                <h6 class="fs-3 fw-bold lh-base">Project meeting</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <h6 class="fs-2 fw-bold">09:46</h6>
+                                        <div class="work ms-3 ps-3 border-left pb-2">
+                                            <div class="circle border-warning"></div>
+                                            <div>
+                                                <h6 class="fs-3 fw-bold lh-base">New sale recorded <span href="#"
+                                                        class="text-info">#ML-3467</span>
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <h6 class="fs-2 fw-bold">09:46</h6>
+                                        <div class="work ms-3 ps-3 border-left pb-2">
+                                            <div class="circle border-danger"></div>
+                                            <div>
+                                                <p class="text-muted fs-3 fw-normal lh-base">Payment was made of $64.95
+                                                    to Michael Anderson</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <h6 class="fs-2 fw-bold">09:46</h6>
+                                        <div class="work ms-3 ps-3 border-left pb-2">
+                                            <div class="circle border-success"></div>
+                                            <div>
+                                                <p class="text-muted fs-3 fw-normal lh-base">New payment receipt created
+                                                    for Alphanso Golvo</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <h6 class="fs-2 fw-bold">09:46</h6>
+                                        <div class="work ms-3 ps-3 border-left pb-2">
+                                            <div class="circle border-primary"></div>
+                                            <div>
+                                                <h6 class="fs-3 fw-bold lh-base">New sale recorded <span href="#"
+                                                        class="text-info">#ML-3467</span>
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <h6 class="fs-2 fw-bold">09:46</h6>
+                                        <div class="work ms-3 ps-3 border-left border-white pb-2">
+                                            <div class="circle border-info"></div>
+                                            <div>
+                                                <h6 class="fs-3 fw-bold lh-base">Project meeting</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Activities End -->
+
                 </div>
-                <!-- Last Content End -->
 
 
             </div>
-
         </div>
+
+
     </div>
+
 
 
 

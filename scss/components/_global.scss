@@ -12,15 +12,12 @@ a {
 }
 
 
-// .card-subtitle {
-//     color: $mainly-blue
-// }
-
 .form-select {
     background-color: $aliceblue;
 }
 
 .time,
+.subtitle,
 .chat-icon,
 .card-subtitle,
 .table-head,
@@ -31,4 +28,8 @@ a {
 .badge {
     font-size: 12px;
     font-weight: 400;
+}
+
+.badge-background {
+    background-color: $athens-gray;
 }
