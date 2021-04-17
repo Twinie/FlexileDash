@@ -7417,6 +7417,31 @@ a {
 .table-title {
   margin-bottom: 6px; }
 
+.page-breadcrumb {
+  margin-bottom: 54px; }
+
+.downloard-cardbody {
+  padding: 43px 43px 52px 43px; }
+
+.part1 {
+  margin-right: 15px; }
+  .part1 .earning-card {
+    margin-right: 15px; }
+
+.part2 {
+  margin-left: 15px; }
+
+.earning-cardbody {
+  padding: 27px 27px 37px 35px; }
+
+.monthly-cardbody {
+  padding: 27px 27px 94px 34px; }
+
+.overview-cardbody {
+  padding: 30px 48px 76px 30px; }
+  .overview-cardbody .caption-overview {
+    margin-bottom: 47px; }
+
 .topbar {
   background-color: #fff;
   width: 100%;
@@ -7762,10 +7787,10 @@ a {
   margin-right: 8px; }
 
 .downloard .downloard-card {
-  height: 217px;
   background-color: #e6f4ff;
   background-image: url("../../assets/images/hero/1.png");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: right; }
 
 .downloard .downloard-text {
   font-weight: 500; }
@@ -7774,11 +7799,9 @@ a {
   color: #9fb8ef; }
 
 .downloard .sales-card {
-  height: 187px;
-  background-image: url("../../assets/images/hero/2.png"); }
-
-.downloard .overview-card {
-  height: 427px; }
+  background-image: url("../../assets/images/hero/2.png");
+  background-repeat: repeat-x;
+  background-position: bottom; }
 
 .downloard .overview-cirle {
   width: 7px;
@@ -7792,14 +7815,17 @@ a {
   color: #a7e3f4; }
 
 .products .total-sales-card {
-  height: 515px; }
+  margin-top: 30px;
+  margin-right: 15px; }
 
 .products .circle-icon {
   width: 10px;
   height: 10px; }
 
 .products .Performance-card {
-  height: 515px; }
+  height: 515px;
+  margin-top: 30px;
+  margin-left: 15px; }
 
 .products .table > :not(:last-child) > :last-child > * {
   border-bottom-color: inherit; }
