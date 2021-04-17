@@ -224,8 +224,8 @@ table {
   border-collapse: collapse; }
 
 caption {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 16px;
+  padding-bottom: 16px;
   color: #777e89;
   text-align: left; }
 
@@ -1319,7 +1319,7 @@ progress {
   vertical-align: top;
   border-color: #ecf0f2; }
   .table > :not(caption) > * > * {
-    padding: 0.5rem 0.5rem;
+    padding: 16px 0.5rem;
     background-color: var(--bs-table-bg);
     background-image: linear-gradient(var(--bs-table-accent-bg), var(--bs-table-accent-bg));
     border-bottom-width: 1px; }
@@ -7414,6 +7414,9 @@ a {
 .badge-background {
   background-color: #e7e9f0; }
 
+.table-title {
+  margin-bottom: 6px; }
+
 .topbar {
   background-color: #fff;
   width: 100%;
@@ -7797,6 +7800,9 @@ a {
 
 .products .Performance-card {
   height: 515px; }
+
+.products .table > :not(:last-child) > :last-child > * {
+  border-bottom-color: inherit; }
 
 .angular-row .card {
   height: 495px; }
