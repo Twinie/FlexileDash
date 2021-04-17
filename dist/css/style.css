@@ -1317,7 +1317,7 @@ progress {
   margin-bottom: 1rem;
   color: #212529;
   vertical-align: top;
-  border-color: #ecf0f2; }
+  border-color: #f00; }
   .table > :not(caption) > * > * {
     padding: 16px 0.5rem;
     background-color: var(--bs-table-bg);
@@ -3966,7 +3966,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1rem;
-  border-bottom: 1px solid #ecf0f2;
+  border-bottom: 1px solid #f00;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px); }
   .modal-header .btn-close {
@@ -3989,7 +3989,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: flex-end;
   padding: 0.75rem;
-  border-top: 1px solid #ecf0f2;
+  border-top: 1px solid #f00;
   border-bottom-right-radius: calc(0.3rem - 1px);
   border-bottom-left-radius: calc(0.3rem - 1px); }
   .modal-footer > * {
@@ -4833,31 +4833,31 @@ textarea.form-control-lg {
   transform: translateY(-50%) !important; }
 
 .border {
-  border: 1px solid #ecf0f2 !important; }
+  border: 1px solid #f00 !important; }
 
 .border-0 {
   border: 0 !important; }
 
 .border-top {
-  border-top: 1px solid #ecf0f2 !important; }
+  border-top: 1px solid #f00 !important; }
 
 .border-top-0 {
   border-top: 0 !important; }
 
 .border-end {
-  border-right: 1px solid #ecf0f2 !important; }
+  border-right: 1px solid #f00 !important; }
 
 .border-end-0 {
   border-right: 0 !important; }
 
 .border-bottom {
-  border-bottom: 1px solid #ecf0f2 !important; }
+  border-bottom: 1px solid #f00 !important; }
 
 .border-bottom-0 {
   border-bottom: 0 !important; }
 
 .border-start {
-  border-left: 1px solid #ecf0f2 !important; }
+  border-left: 1px solid #f00 !important; }
 
 .border-start-0 {
   border-left: 0 !important; }
@@ -7394,7 +7394,7 @@ a {
   text-decoration: none; }
 
 .card {
-  border: 1px solid #ecf0f2; }
+  border: 1px solid #f00; }
 
 .form-select {
   background-color: #f1f9ff; }
@@ -7441,6 +7441,33 @@ a {
   padding: 30px 48px 76px 30px; }
   .overview-cardbody .caption-overview {
     margin-bottom: 47px; }
+
+.sales-cardbody {
+  padding: 34px; }
+
+.heading-cardbody {
+  margin-bottom: 28px; }
+
+.cardbody-value {
+  margin-bottom: 40px !important; }
+
+.total-sales-year {
+  margin-top: 43px; }
+
+.angular-cardbody {
+  padding: 33px 30px 19px 30px; }
+
+.time {
+  margin-bottom: 30px; }
+
+.angular-text {
+  margin-bottom: 22px; }
+
+.angular-badges {
+  margin-bottom: 36px; }
+
+.profile-image {
+  margin-top: 17px; }
 
 .topbar {
   background-color: #fff;
@@ -7823,15 +7850,11 @@ a {
   height: 10px; }
 
 .products .Performance-card {
-  height: 515px;
   margin-top: 30px;
   margin-left: 15px; }
 
 .products .table > :not(:last-child) > :last-child > * {
   border-bottom-color: inherit; }
-
-.angular-row .card {
-  height: 495px; }
 
 .angular-row .angular-img {
   background-color: #e6f6ff; }
@@ -7844,7 +7867,7 @@ a {
   color: #d3dde2; }
 
 .daily-activity .work {
-  border-left: 3px solid #ecf0f2;
+  border-left: 3px solid #f00;
   position: relative; }
   .daily-activity .work .circle {
     content: "";
@@ -7870,10 +7893,6 @@ a {
   .container-xl,
   .container-xxl {
     padding: 20px 15px !important; } }
-
-@media (max-width: 499px) {
-  .Performance-card {
-    height: 550px !important; } }
 
 @media (max-width: 468px) {
   .activity-card {
