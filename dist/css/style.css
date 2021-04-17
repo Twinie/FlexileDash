@@ -7469,6 +7469,12 @@ a {
 .profile-image {
   margin-top: 17px; }
 
+.stats-cardbody {
+  padding: 35px 36px 148px 30px; }
+
+.stats-items {
+  margin-bottom: 36px; }
+
 .topbar {
   background-color: #fff;
   width: 100%;
@@ -7860,7 +7866,6 @@ a {
   background-color: #e6f6ff; }
 
 .angular-row .stats-card {
-  height: 495px;
   background-image: url("../../assets/images/hero/6.png"); }
 
 .angular-row .btn {

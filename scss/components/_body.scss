@@ -97,16 +97,12 @@
 
 
 .angular-row {
-    .card {
-        // height: 495px;
-    }
-
     .angular-img {
         background-color: #e6f6ff;
     }
 
     .stats-card {
-        height: 495px;
+        // height: 495px;
         background-image: url("../../assets/images/hero/6.png");
     }
 
@@ -172,9 +168,6 @@
 
 
 @media (max-width: 499px) {
-    .Performance-card {
-        // height: 550px !important;
-    }
 }
 
 
