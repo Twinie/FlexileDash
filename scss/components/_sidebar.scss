@@ -187,7 +187,7 @@
     }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 991px) {    
     .sidebar {
         left: 0px;
 
@@ -195,7 +195,6 @@
             left: -265px;
         }
     }
-
 
     .sidebar.show-sidebar+.body-wrapper {
         margin-left: 0;
@@ -210,8 +209,6 @@
             left: 0;
         }
     }
-
-
 
     .sidebar.show-sidebar+.body-wrapper, .body-wrapper {
         margin-left: 0 !important;
