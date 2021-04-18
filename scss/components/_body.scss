@@ -49,10 +49,6 @@
         background-position: bottom;
     }
 
-    // .overview-card {
-    //      height: 427px;
-    // }
-
     .overview-cirle {
         width: 7px;
         height: 7px;
@@ -122,8 +118,8 @@
         height: 12px;
         border: 3px solid;
         border-radius: 50%;
-        top: 0;
-        left: -8px;
+        top: 2.5px;
+        left: -7px;
         background-color: $white;
     }
 }
@@ -144,16 +140,72 @@
 
 
 @media (max-width: 1199px) {
+
+    .part1 {
+        margin-right: 0;
+    }
+
+    .part2 {
+        margin-left: 0 !important;
+
+        .overview-card {
+            margin-top: 30px;
+        }
+    }
+
+    .total-sales-card {
+        margin-right: 0 !important;
+    }
+
+    .Performance-card {
+        margin-left: 0 !important;
+    }
+
+    .stats-card {
+        margin-right: 0 !important;
+    }
+
+    .stats-cardbody {
+        padding-bottom: 172px;
+    }
+
     .activity-card {
-        height: 420px !important;
+        margin-left: 0 !important;
     }
 }
 
 
 
-@media (max-width: 991px) {}
+
+@media (max-width: 991px) {
+    .angular12-card {
+        margin-right: 0;
+    }
+}
 
 
+
+@media (max-width: 787px) {
+    .profile-button {
+        padding: 6px 0px;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .earning-card {
+        margin-right: 0;
+    }
+
+    .overflow-card {
+        margin-left: 0;
+    }
+
+    .stats-card {
+        margin-left: 0;
+    }
+}
 
 
 
@@ -166,8 +218,7 @@
 
 
 
-@media (max-width: 499px) {
-}
+@media (max-width: 499px) {}
 
 
 

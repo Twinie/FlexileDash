@@ -48,15 +48,23 @@ a {
 
 .part1 {
     margin-right: 15px;
+}
 
-    .earning-card {
-        margin-right: 15px;
-    }
+.earning-card {
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.sales-card {
+    margin-top: 30px;
+    margin-left: 15px;
 }
 
 .part2 {
     margin-left: 15px;
 }
+
+
 
 .earning-cardbody {
     padding: 27px 27px 37px 35px;
@@ -67,7 +75,7 @@ a {
 }
 
 .overview-cardbody {
-    padding: 30px 48px 76px 30px;
+    padding: 30px 48px 85px 30px;
 
     .caption-overview {
         margin-bottom: 47px;
@@ -111,7 +119,7 @@ a {
 }
 
 .stats-cardbody {
-    padding: 35px 36px 172px 30px;
+    padding: 35px 36px 160px 30px;
 }
 
 .stats-items {
@@ -121,4 +129,30 @@ a {
 .stats-circle {
     margin-right: 14px;
     padding: 12px;
+}
+
+.angular12-card {
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.stats-card {
+    margin: 30px 15px 0 15px;
+}
+
+.activity-card {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.work {
+    padding-bottom: 26px;
+}
+
+.work-apply {
+    padding-bottom: 15px;
+}
+
+.activity-heading {
+    margin-bottom: 50px;
 }
