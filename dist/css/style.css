@@ -7415,7 +7415,7 @@ a {
   background-color: #e7e9f0; }
 
 .table-title {
-  margin-bottom: 6px; }
+  margin-bottom: 6px !important; }
 
 .page-breadcrumb {
   margin-bottom: 54px; }
