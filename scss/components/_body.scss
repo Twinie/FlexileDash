@@ -194,6 +194,10 @@
 
 
 @media (max-width: 767px) {
+    .navbar-brand {
+        padding: 0 !important;
+    }
+
     .profile-button {
         position: relative;
     }
@@ -217,7 +221,7 @@
     .bell-menu {
         position: absolute !important;
     }
-    
+
     .earning-card {
         margin-right: 0;
     }
@@ -253,5 +257,3 @@
         }
     }
 }
-
-

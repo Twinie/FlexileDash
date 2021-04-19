@@ -7942,6 +7942,8 @@ a {
     padding: 6px 0px; } }
 
 @media (max-width: 767px) {
+  .navbar-brand {
+    padding: 0 !important; }
   .profile-button {
     position: relative; }
   .profile-menu {
