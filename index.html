@@ -80,7 +80,7 @@
                                         <span class="yellow-point"></span>
                                     </div>
                                 </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <ul class="dropdown-menu message-menu" aria-labelledby="dropdownMenuButton1">
                                     <li class="lh-sm"><a class="dropdown-item" href="#">Action</a></li>
                                     <li class="lh-sm"><a class="dropdown-item" href="#">Another action</a></li>
                                     <li class="lh-sm"><a class="dropdown-item" href="#">Something else here</a></li>
@@ -89,14 +89,14 @@
                         </li>
                         <li class="nav-item">
                             <div class="dropdown m-0">
-                                <button class="btn message-button" type="button" id="dropdownMenuButton1"
+                                <button class="btn message-button bell-button" type="button" id="dropdownMenuButton1"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     <i data-feather="bell" class="icon"></i>
                                     <div class="notify">
                                         <span class="blue-point"></span>
                                     </div>
                                 </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <ul class="dropdown-menu bell-menu" aria-labelledby="dropdownMenuButton1">
                                     <li class="lh-sm"><a class="dropdown-item" href="#">Action</a></li>
                                     <li class="lh-sm"><a class="dropdown-item" href="#">Another action</a></li>
                                     <li class="lh-sm"><a class="dropdown-item" href="#">Something else here</a></li>
@@ -467,7 +467,7 @@
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    <img src="./assets/images/profile/1.png" alt="">
+                                                    <a href="#"><img src="./assets/images/profile/1.png" alt=""></a>
                                                 </td>
                                                 <td>
                                                     <div>
@@ -486,7 +486,7 @@
 
                                             <tr>
                                                 <td>
-                                                    <img src="./assets/images/profile/2.png" alt="">
+                                                    <a href="#"><img src="./assets/images/profile/2.png" alt=""></a>
                                                 </td>
                                                 <td>
                                                     <div class="my-2">
@@ -505,7 +505,7 @@
 
                                             <tr>
                                                 <td>
-                                                    <img src="./assets/images/profile/3.png" alt="">
+                                                    <a href="#"><img src="./assets/images/profile/3.png" alt=""></a>
                                                 </td>
                                                 <td>
                                                     <div class="my-2">
@@ -524,7 +524,7 @@
 
                                             <tr>
                                                 <td>
-                                                    <img src="./assets/images/profile/4.png" alt="">
+                                                    <a href="#"><img src="./assets/images/profile/4.png" alt=""></a>
                                                 </td>
                                                 <td>
                                                     <div class="my-2">
@@ -544,7 +544,7 @@
 
                                             <tr>
                                                 <td class="border-0">
-                                                    <img src="./assets/images/profile/5.png" alt="">
+                                                    <a href="#"><img src="./assets/images/profile/5.png" alt=""></a>
                                                 </td>
                                                 <td class="border-0">
                                                     <div class="my-2">
@@ -762,7 +762,8 @@
                                         <div class="work ms-3 ps-3 border-left">
                                             <div class="circle border-danger"></div>
                                             <div>
-                                                <p class="text-muted fs-3 fw-normal lh-sm mb-0">Payment was made of $64.95
+                                                <p class="text-muted fs-3 fw-normal lh-sm mb-0">Payment was made of
+                                                    $64.95
                                                     to Michael Anderson</p>
                                             </div>
                                         </div>
@@ -772,7 +773,8 @@
                                         <div class="work ms-3 ps-3 border-left">
                                             <div class="circle border-success"></div>
                                             <div>
-                                                <p class="text-muted fs-3 fw-normal lh-sm mb-0">New payment receipt created
+                                                <p class="text-muted fs-3 fw-normal lh-sm mb-0">New payment receipt
+                                                    created
                                                     for Alphanso Golvo</p>
                                             </div>
                                         </div>
@@ -824,16 +826,7 @@
     <script src="./assets/libs/jquery/jquery.min.js"></script>
     <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./dist/js/custom.min.js"></script>
-    <!-- Icon Start -->
     <script src="./dist/js/feather.min.js"></script>
-    <!-- Icon End -->
-
-    <script>
-        $("#menu-toggle").click(function (e) {
-            e.preventDefault();
-            $("#wrapper").toggleClass("toggled");
-        });
-    </script>
 </body>
 
 </html>

@@ -194,6 +194,30 @@
 
 
 @media (max-width: 767px) {
+    .profile-button {
+        position: relative;
+    }
+
+    .profile-menu {
+        position: absolute !important;
+    }
+
+    .message-button {
+        position: relative;
+    }
+
+    .message-menu {
+        position: absolute !important;
+    }
+
+    .bell-button {
+        position: relative;
+    }
+
+    .bell-menu {
+        position: absolute !important;
+    }
+    
     .earning-card {
         margin-right: 0;
     }
@@ -217,36 +241,7 @@
 
 
 
-
-@media (max-width: 499px) {}
-
-
-
-
-@media (max-width: 468px) {
-    .activity-card {
-        height: 450px !important;
-    }
-}
-
-
-
-@media (max-width: 439px) {
-    .activity-card {
-        height: 470px !important;
-    }
-}
-
-
 @media (max-width: 365px) {
-    .activity-row {
-        .part3 {
-            .card3 {
-                height: 460px !important;
-            }
-        }
-    }
-
     .navbar-header {
         width: 200px;
         padding: 0;
@@ -260,25 +255,3 @@
 }
 
 
-
-@media (max-width: 350px) {
-    .activity-card {
-        height: 500px !important;
-    }
-}
-
-
-
-@media (max-width: 331px) {
-    .activity-card {
-        height: 520px !important;
-    }
-}
-
-
-
-@media (max-width: 331px) {
-    .activity-card {
-        height: 550px !important;
-    }
-}
