@@ -6,12 +6,12 @@
 // $pink: #fc4b6c !default;
 $sail: #a7e3f4 !default;
 $perono: #9fb8ef !default;
-$mainly-blue: #99abb4 !default;
+$text-muted: #99abb4 !default;
+$mainly-blue: #777e89 !default;
 $aliceblue: #f1f9ff !default;
 $img-background: #e6f4ff !default;
 $athens-gray: #e7e9f0 !default;
 $harmonies: #d3dde2 !default;
-$text-muted: #777e89 !default;
 $gray: #949db2 !default;
 $text-dark: #11142d !default;
 
@@ -107,7 +107,8 @@ $headings-font-weight: 500 !default;
 
 $card-border-radius: 20px !default;
 
-$border-color: #ecf0f2 !default;
+// $border-color: #ecf0f2 !default;
+$border-color: #f00 !default;
 $card-border: 1px solid $border-color !default;
 
 $line-height-base: 1.5 !default;
@@ -136,3 +137,5 @@ $font-sizes: (1: 10px,
 
 
 $table-cell-padding-y: 17px !default;
+
+$grid-gutter-width: 30px !default;

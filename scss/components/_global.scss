@@ -8,7 +8,12 @@ a {
 }
 
 .card {
+    margin-bottom: 30px;
     border: $card-border;
+}
+
+.card-body {
+    padding: 35px 30px !important;
 }
 
 
@@ -16,12 +21,7 @@ a {
     background-color: $aliceblue;
 }
 
-.time,
-.subtitle,
-.chat-icon,
-.card-subtitle,
-.table-head,
-.subtitle-name {
+.text-mainly {
     color: $mainly-blue;
 }
 
@@ -43,47 +43,11 @@ a {
 }
 
 .downloard-cardbody {
-    padding: 43px 43px 52px 43px;
+    padding: 43px 42px 60px 42px !important;
 }
 
-.part1 {
-    margin-right: 15px;
-}
-
-.earning-card {
-    margin-top: 30px;
-    margin-right: 15px;
-}
-
-.sales-card {
-    margin-top: 30px;
-    margin-left: 15px;
-}
-
-.part2 {
-    margin-left: 15px;
-}
-
-
-
-.earning-cardbody {
-    padding: 27px 27px 37px 35px;
-}
-
-.monthly-cardbody {
-    padding: 27px 27px 94px 34px;
-}
-
-.overview-cardbody {
-    padding: 30px 48px 85px 30px;
-
-    .caption-overview {
-        margin-bottom: 47px;
-    }
-}
-
-.sales-cardbody {
-    padding: 34px;
+.caption-overview {
+    margin-bottom: 47px;
 }
 
 .heading-cardbody {
@@ -96,14 +60,6 @@ a {
 
 .total-sales-year {
     margin-top: 43px;
-}
-
-.performance-cardbody {
-    padding: 34px 32px 32px 29px;
-}
-
-.angular-cardbody {
-    padding: 33px 30px 19px 30px;
 }
 
 .time {
@@ -122,10 +78,6 @@ a {
     margin-top: 17px;
 }
 
-.stats-cardbody {
-    padding: 35px 36px 160px 30px;
-}
-
 .stats-items {
     margin-bottom: 36px;
 }
@@ -138,15 +90,6 @@ a {
 .angular12-card {
     margin-top: 30px;
     margin-right: 15px;
-}
-
-.stats-card {
-    margin: 30px 15px 0 15px;
-}
-
-.activity-card {
-    margin-top: 30px;
-    margin-left: 15px;
 }
 
 .work {

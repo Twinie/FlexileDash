@@ -226,7 +226,7 @@ table {
 caption {
   padding-top: 17px;
   padding-bottom: 17px;
-  color: #777e89;
+  color: #99abb4;
   text-align: left; }
 
 th {
@@ -480,8 +480,8 @@ progress {
 .container-xl,
 .container-xxl {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
+  padding-right: var(--bs-gutter-x, 15px);
+  padding-left: var(--bs-gutter-x, 15px);
   margin-right: auto;
   margin-left: auto; }
 
@@ -506,7 +506,7 @@ progress {
     max-width: 1320px; } }
 
 .row {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 30px;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
@@ -1317,7 +1317,7 @@ progress {
   margin-bottom: 1rem;
   color: #212529;
   vertical-align: top;
-  border-color: #ecf0f2; }
+  border-color: #f00; }
   .table > :not(caption) > * > * {
     padding: 17px 0.5rem;
     background-color: var(--bs-table-bg);
@@ -1496,7 +1496,7 @@ progress {
 .form-text {
   margin-top: 0.25rem;
   font-size: 0.875em;
-  color: #777e89; }
+  color: #99abb4; }
 
 .form-control {
   display: block;
@@ -3228,7 +3228,7 @@ textarea.form-control-lg {
   border-bottom-left-radius: 19px; }
 
 .card-group > .card {
-  margin-bottom: 0.75rem; }
+  margin-bottom: 15px; }
 
 @media (min-width: 576px) {
   .card-group {
@@ -3870,7 +3870,7 @@ textarea.form-control-lg {
   max-width: 100%;
   pointer-events: none; }
   .toast-container > :not(:last-child) {
-    margin-bottom: 0.75rem; }
+    margin-bottom: 15px; }
 
 .toast-header {
   display: flex;
@@ -3966,7 +3966,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1rem;
-  border-bottom: 1px solid #ecf0f2;
+  border-bottom: 1px solid #f00;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px); }
   .modal-header .btn-close {
@@ -3989,7 +3989,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: flex-end;
   padding: 0.75rem;
-  border-top: 1px solid #ecf0f2;
+  border-top: 1px solid #f00;
   border-bottom-right-radius: calc(0.3rem - 1px);
   border-bottom-left-radius: calc(0.3rem - 1px); }
   .modal-footer > * {
@@ -4833,31 +4833,31 @@ textarea.form-control-lg {
   transform: translateY(-50%) !important; }
 
 .border {
-  border: 1px solid #ecf0f2 !important; }
+  border: 1px solid #f00 !important; }
 
 .border-0 {
   border: 0 !important; }
 
 .border-top {
-  border-top: 1px solid #ecf0f2 !important; }
+  border-top: 1px solid #f00 !important; }
 
 .border-top-0 {
   border-top: 0 !important; }
 
 .border-end {
-  border-right: 1px solid #ecf0f2 !important; }
+  border-right: 1px solid #f00 !important; }
 
 .border-end-0 {
   border-right: 0 !important; }
 
 .border-bottom {
-  border-bottom: 1px solid #ecf0f2 !important; }
+  border-bottom: 1px solid #f00 !important; }
 
 .border-bottom-0 {
   border-bottom: 0 !important; }
 
 .border-start {
-  border-left: 1px solid #ecf0f2 !important; }
+  border-left: 1px solid #f00 !important; }
 
 .border-start-0 {
   border-left: 0 !important; }
@@ -5495,7 +5495,7 @@ textarea.form-control-lg {
   color: #212529 !important; }
 
 .text-muted {
-  color: #777e89 !important; }
+  color: #99abb4 !important; }
 
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important; }
@@ -7394,18 +7394,17 @@ a {
   text-decoration: none; }
 
 .card {
-  border: 1px solid #ecf0f2; }
+  margin-bottom: 30px;
+  border: 1px solid #f00; }
+
+.card-body {
+  padding: 35px 30px !important; }
 
 .form-select {
   background-color: #f1f9ff; }
 
-.time,
-.subtitle,
-.chat-icon,
-.card-subtitle,
-.table-head,
-.subtitle-name {
-  color: #99abb4; }
+.text-mainly {
+  color: #777e89; }
 
 .badge {
   font-size: 12px;
@@ -7421,35 +7420,10 @@ a {
   margin-bottom: 54px; }
 
 .downloard-cardbody {
-  padding: 43px 43px 52px 43px; }
+  padding: 43px 42px 60px 42px !important; }
 
-.part1 {
-  margin-right: 15px; }
-
-.earning-card {
-  margin-top: 30px;
-  margin-right: 15px; }
-
-.sales-card {
-  margin-top: 30px;
-  margin-left: 15px; }
-
-.part2 {
-  margin-left: 15px; }
-
-.earning-cardbody {
-  padding: 27px 27px 37px 35px; }
-
-.monthly-cardbody {
-  padding: 27px 27px 94px 34px; }
-
-.overview-cardbody {
-  padding: 30px 48px 85px 30px; }
-  .overview-cardbody .caption-overview {
-    margin-bottom: 47px; }
-
-.sales-cardbody {
-  padding: 34px; }
+.caption-overview {
+  margin-bottom: 47px; }
 
 .heading-cardbody {
   margin-bottom: 28px; }
@@ -7459,12 +7433,6 @@ a {
 
 .total-sales-year {
   margin-top: 43px; }
-
-.performance-cardbody {
-  padding: 34px 32px 32px 29px; }
-
-.angular-cardbody {
-  padding: 33px 30px 19px 30px; }
 
 .time {
   margin-bottom: 30px; }
@@ -7478,9 +7446,6 @@ a {
 .profile-image {
   margin-top: 17px; }
 
-.stats-cardbody {
-  padding: 35px 36px 160px 30px; }
-
 .stats-items {
   margin-bottom: 36px; }
 
@@ -7491,13 +7456,6 @@ a {
 .angular12-card {
   margin-top: 30px;
   margin-right: 15px; }
-
-.stats-card {
-  margin: 30px 15px 0 15px; }
-
-.activity-card {
-  margin-top: 30px;
-  margin-left: 15px; }
 
 .work {
   padding-bottom: 26px; }
@@ -7852,60 +7810,45 @@ a {
 .page-breadcrumb .plus-icon {
   margin-right: 8px; }
 
-.downloard .downloard-card {
+.downloard-card {
   background-color: #e6f4ff;
   background-image: url("../../assets/images/hero/1.png");
   background-repeat: no-repeat;
   background-position: right; }
 
-.downloard .downloard-text {
+.downloard-text {
   font-weight: 500; }
 
-.downloard .revenue {
+.revenue {
   color: #9fb8ef; }
 
-.downloard .sales-card {
-  background-image: url("../../assets/images/hero/2.png");
-  background-repeat: repeat-x;
-  background-position: bottom; }
-
-.downloard .overview-cirle {
+.overview-cirle {
   width: 7px;
   height: 7px; }
 
-.downloard .circle-icon {
+.circle-icon {
   color: #a7e3f4;
   background-color: #a7e3f4; }
 
-.downloard .admin-text {
+.admin-text {
   color: #a7e3f4; }
-
-.products .total-sales-card {
-  margin-top: 30px;
-  margin-right: 15px; }
 
 .products .circle-icon {
   width: 10px;
   height: 10px; }
 
-.products .Performance-card {
-  margin-top: 30px;
-  margin-left: 15px; }
-
 .products .table > :not(:last-child) > :last-child > * {
   border-bottom-color: inherit; }
 
 .angular-row .angular-img {
-  background-color: #e6f6ff; }
-
-.angular-row .stats-card {
-  background-image: url("../../assets/images/hero/6.png"); }
+  background-color: #e6f6ff;
+  height: 205px; }
 
 .angular-row .btn {
   color: #d3dde2; }
 
 .daily-activity .work {
-  border-left: 3px solid #ecf0f2;
+  border-left: 3px solid #f00;
   position: relative; }
   .daily-activity .work .circle {
     content: "";
@@ -7918,35 +7861,13 @@ a {
     left: -7px;
     background-color: #fff; }
 
-@media (max-width: 1199px) {
-  .part1 {
-    margin-right: 0; }
-  .part2 {
-    margin-left: 0 !important; }
-    .part2 .overview-card {
-      margin-top: 30px; }
-  .total-sales-card {
-    margin-right: 0 !important; }
-  .Performance-card {
-    margin-left: 0 !important; }
-  .stats-card {
-    margin-right: 0 !important; }
-  .stats-cardbody {
-    padding-bottom: 172px; }
-  .activity-card {
-    margin-left: 0 !important; } }
-
-@media (max-width: 991px) {
-  .angular12-card {
-    margin-right: 0; } }
-
 @media (max-width: 787px) {
   .profile-button {
     padding: 6px 0px; } }
 
 @media (max-width: 767px) {
   .navbar-brand {
-    padding: 0 !important; }
+    padding: 0; }
   .profile-button {
     position: relative; }
   .profile-menu {
@@ -7958,13 +7879,7 @@ a {
   .bell-button {
     position: relative; }
   .bell-menu {
-    position: absolute !important; }
-  .earning-card {
-    margin-right: 0; }
-  .overflow-card {
-    margin-left: 0; }
-  .stats-card {
-    margin-left: 0; } }
+    position: absolute !important; } }
 
 @media (max-width: 575px) {
   
