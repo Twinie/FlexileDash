@@ -224,8 +224,8 @@ table {
   border-collapse: collapse; }
 
 caption {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 17px;
+  padding-bottom: 17px;
   color: #777e89;
   text-align: left; }
 
@@ -1319,7 +1319,7 @@ progress {
   vertical-align: top;
   border-color: #ecf0f2; }
   .table > :not(caption) > * > * {
-    padding: 16px 0.5rem;
+    padding: 17px 0.5rem;
     background-color: var(--bs-table-bg);
     background-image: linear-gradient(var(--bs-table-accent-bg), var(--bs-table-accent-bg));
     border-bottom-width: 1px; }
@@ -7459,6 +7459,9 @@ a {
 
 .total-sales-year {
   margin-top: 43px; }
+
+.performance-cardbody {
+  padding: 34px 32px 32px 29px; }
 
 .angular-cardbody {
   padding: 33px 30px 19px 30px; }
