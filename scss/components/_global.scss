@@ -8,6 +8,7 @@ a {
 }
 
 .card {
+    background-color: chartreuse;
     margin-bottom: 30px;
     border: $card-border;
 }
@@ -60,6 +61,10 @@ a {
 
 .total-sales-year {
     margin-top: 43px;
+}
+
+.Performance-heading {
+    margin-bottom: 38px;
 }
 
 .time {
