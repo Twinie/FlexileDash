@@ -28,7 +28,7 @@ $gray-500: #adb5bd !default;
 $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
-$gray-900: #212529 !default;
+$gray-900: #11142d !default;
 $black: #000 !default;
 
 // fusv-disable
@@ -107,7 +107,8 @@ $headings-font-weight: 500 !default;
 
 $card-border-radius: 20px !default;
 
-$border-color: #ecf0f2 !default;
+// $border-color: #ecf0f2 !default;
+$border-color: #f00 !default;
 $card-border: 1px solid $border-color !default;
 
 $line-height-base: 1.5 !default;
