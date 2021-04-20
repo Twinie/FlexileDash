@@ -1,7 +1,7 @@
 var options = {
     series: [{
         name: 'Monthly Sales',
-        data: [44, 82, 17, 72, 32]
+        data: [44, 83, 25, 72, 38]
     }],
 
     colors: ['#1a9bfc', '#080'],
