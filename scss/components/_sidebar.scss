@@ -1,13 +1,28 @@
 .sidebar {
     background-color: #fff;
     position: fixed;
-    top: 96px;
     width: 265px;
-    height: calc(100vh - 96px);
+    height: 100%;
     overflow: auto;
     z-index: 9;
     border-right: 1px solid #ecf0f2;
     transition: all 0.6s;
+    overflow-x: hidden;
+
+    .navbar-header {
+        height: 100px;
+        border-right: 1px solid #ecf0f2;
+
+        .navbar-brand {
+            padding: 0;
+            margin: 0;
+            display: flex;
+
+            .image {
+                padding: 33px 60px 36px 35px;
+            }
+        }
+    }
 
     .scrollbar {
         height: 100%;
@@ -16,7 +31,7 @@
 
         .side-nav {
             .list-group {
-                padding: 3px 11px;
+                padding: 0px 0px 0 22px;
 
                 .list-item {
                     padding: 0 30px;
@@ -41,9 +56,9 @@
                 }
 
                 .sidelist-item {
-                    padding: 14px 30px;
+                    padding: 10px 21px;
                     border-radius: 10px;
-                    margin: 2px 0;
+                    margin: 2px 15px 2px 0;
 
                     &:hover {
                         background-color: $athens-gray;
@@ -78,7 +93,7 @@
                             font-size: 15px;
                             font-weight: 500;
                             color: #777e89;
-                            margin: 0 0 0 20px;
+                            margin: 0 0 0 18px;
                         }
                     }
                 }
@@ -89,7 +104,8 @@
 
 
             .list-group2 {
-                padding: 30px 11px 3px 11px;
+                margin-top: 35px;
+                padding: 0px 0px 0 22px;
 
                 .list-item {
                     padding: 0 30px;
@@ -114,9 +130,9 @@
                 }
 
                 .sidelist-item {
-                    padding: 14px 30px;
+                    padding: 10px 21px;
                     border-radius: 10px;
-                    margin: 2px 0;
+                    margin: 2px 15px 2px 0;
 
                     &:hover {
                         background-color: $athens-gray;
@@ -151,7 +167,7 @@
                             font-size: 15px;
                             font-weight: 500;
                             color: #777e89;
-                            margin: 0 0 0 20px;
+                            margin: 0 0 0 18px;
                         }
                     }
                 }
@@ -159,7 +175,7 @@
 
 
             .image {
-                margin: 40px 0 80px 0;
+                margin: 28px 0 40px 0;
                 display: flex;
                 justify-content: center;
 
@@ -187,7 +203,24 @@
     }
 }
 
-@media (min-width: 991px) {    
+.sidebar-minitext {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px !important;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 23px;
+        height: 1px;
+        left: -30px;
+        background-color: #edf1f5;
+    }
+}
+
+
+@media (min-width: 991px) {
     .sidebar {
         left: 0px;
 
@@ -197,6 +230,10 @@
     }
 
     .sidebar.show-sidebar+.body-wrapper {
+        margin-left: 0;
+    }
+
+    .sidebar.show-sidebar+.topbar {
         margin-left: 0;
     }
 }
@@ -210,8 +247,13 @@
         }
     }
 
-    .sidebar.show-sidebar+.body-wrapper, .body-wrapper {
+    .sidebar.show-sidebar+.body-wrapper,
+    .body-wrapper {
         margin-left: 0 !important;
+    }
+
+    .sidebar.show-sidebar+.topbar {
+        margin-left: 0;
     }
 }
 
@@ -219,5 +261,5 @@
 
 
 // @media (max-width: 767px) {
-    
+
 // }

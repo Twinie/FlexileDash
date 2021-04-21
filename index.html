@@ -34,21 +34,18 @@
 
 </head>
 
-<body>
+<body id="main-wrapper">
 
 
-    <div class="main-wrapper overflow-hidden">
+    <div>
+
 
         <!-- Header Start -->
         <header class="topbar">
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
                 <a class="d-block d-md-none fs-3 ms-4 toggle-minimize" aria-current="page" href="#"><i
                         data-feather="menu" class="text-gray"></i></a>
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
-                        <div><img src="./assets/images/logo/logo.png" alt=""></div>
-                    </a>
-                </div>
+
 
                 <button class="navbar-toggler shadow-none me-4 border-0 p-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -130,17 +127,20 @@
 
 
 
-
         <!-- Sidebar Start -->
         <aside class="sidebar">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <div class="image"><img src="./assets/images/logo/logo.png" alt=""></div>
+                </a>
+            </div>
             <div class="scrollbar">
                 <nav class="side-nav">
                     <ul class="list-group">
                         <li class="list-item heading">
-                            <div class="line"></div>
-                            <p class="text">PERSONAL</p>
+                            <p class="text sidebar-minitext">PERSONAL</p>
                         </li>
-                        <li class="sidelist-item heading active">
+                        <li class="sidelist-item heading">
                             <a href="#" class="sidelist-link">
                                 <i data-feather="pie-chart" class="icon"></i>
                                 <span class="icon-name">Dashboard</span>
@@ -152,7 +152,7 @@
                                 <span class="icon-name">Inbox</span>
                             </a>
                         </li>
-                        <li class="sidelist-item heading">
+                        <li class="sidelist-item heading active">
                             <a href="#" class="sidelist-link">
                                 <i data-feather="toggle-right" class="icon"></i>
                                 <span class="icon-name">UI Elements</span>
@@ -161,8 +161,7 @@
                     </ul>
                     <ul class="list-group2">
                         <li class="list-item heading">
-                            <div class="line"></div>
-                            <p class="text">PROFESSIONAL</p>
+                            <p class="text sidebar-minitext">PROFESSIONAL</p>
                         </li>
                         <li class="sidelist-item heading">
                             <a href="#" class="sidelist-link">
@@ -219,6 +218,9 @@
 
 
 
+
+
+
         <!-- Body Content Start -->
         <div class="body-wrapper">
             <div class="container-fluid">
@@ -232,7 +234,7 @@
                         </div>
                         <div class="ms-auto">
                             <div class="d-none d-lg-flex align-items-center">
-                                <select class="form-select border-0 text-mainly fs-3 fw-normal">
+                                <select class="form-select breadcrumb-select border-0 text-mainly fs-3 fw-normal">
                                     <option selected>Today 23 March</option>
                                     <option>22 March</option>
                                     <option>21 March</option>
@@ -248,7 +250,7 @@
                                     <option>11 March</option>
                                     <option>10 March</option>
                                 </select>
-                                <button class="btn btn-info text-white ms-3 d-flex"><i data-feather="plus"
+                                <button class="btn add-btn btn-info text-white ms-3 fs-3 d-flex"><i data-feather="plus"
                                         class="plus-icon"></i>AddNew</button>
                             </div>
                         </div>
@@ -396,7 +398,7 @@
                                     class="d-sm-flex heading-cardbody justify-content-between align-items-center border-bottom pb-4">
                                     <div class="">
                                         <h3 class="card-title fs-6 fw-medium">Total Sales</h3>
-                                        <p class="text-muted fs-3 fw-normal">Overview of Years</p>
+                                        <p class="text-muted fs-3 fw-normal mb-0">Overview of Years</p>
                                     </div>
                                     <div>
                                         <select class="form-select border-0 text-mainly fs-3 fw-normal">
@@ -408,12 +410,13 @@
                                     </div>
                                 </div>
                                 <div class="d-flex cardbody-value justify-content-between align-items-center mb-4">
-                                    <p class="text-muted fs-3 fw-normal m-0">Sales Yearly</p>
+                                    <p class="text-mainly fs-4 fw-normal m-0">Sales Yearly</p>
                                     <h3 class="fs-7 m-0">8,364,398</h3>
                                 </div>
-                                <div class="image d-flex justify-content-center">
+                                <div id="total-sales" style="position: relative;"><i data-feather="plus" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></i></div>
+                                <!-- <div class="image d-flex justify-content-center">
                                     <img src="./assets/images/hero/4.png" class="img-fluid" alt="">
-                                </div>
+                                </div> -->
                                 <div class="year total-sales-year d-flex justify-content-around align-items-center">
                                     <p class="year1 text-mainly mb-0"><i data-feather="circle"
                                             class="circle-icon bg-info rounded-circle border-0 text-info me-1"></i>
@@ -458,7 +461,7 @@
                                     <table class="table mb-0 align-middle">
                                         <thead>
                                             <tr>
-                                                <th scope="col" class="fs-3 text-muted" colspan="2">Assigned</th>
+                                                <th scope="col" class="fs-3 text-muted">Assigned</th>
                                                 <th scope="col" class="fs-3 text-muted">Name</th>
                                                 <th scope="col" class="fs-3 text-muted">Priority</th>
                                                 <th scope="col" class="fs-3 text-muted">Budget</th>
@@ -467,13 +470,14 @@
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    <img src="./assets/images/profile/1.png" alt="">
-                                                </td>
-                                                <td>
-                                                    <h6 class="table-title fs-3 fw-bold">Sunil Joshi
-                                                    </h6>
-                                                    <p class="text-muted fs-2 fw-normal mb-0">Web Designer
-                                                    </p>
+                                                    <div class="d-flex">
+                                                        <img src="./assets/images/profile/1.png" class="profile-img"
+                                                            alt="">
+                                                        <div>
+                                                            <h6 class="table-title fs-3 fw-bold">Sunil Joshi</h6>
+                                                            <p class="text-muted fs-2 fw-normal mb-0">Web Designer</p>
+                                                        </div>
+                                                    </div>
                                                 </td>
                                                 <td class="text-mainly fs-3 fw-normal">Elite Admin</td>
                                                 <td><span class="badge bg-info">Low</span></td>
@@ -485,13 +489,16 @@
 
                                             <tr>
                                                 <td>
-                                                    <img src="./assets/images/profile/2.png" alt="">
-                                                </td>
-                                                <td>
-                                                    <h6 class="table-title fs-3 fw-bold mb-0">Andrew
-                                                        MacDownland</h6>
-                                                    <p class="text-muted fs-2 fw-normal mb-0">Project Manager
-                                                    </p>
+                                                    <div class="d-flex">
+                                                        <img src="./assets/images/profile/2.png" class="profile-img"
+                                                            alt="">
+                                                        <div>
+                                                            <h6 class="table-title fs-3 fw-bold mb-0">Andrew
+                                                                MacDownland</h6>
+                                                            <p class="text-muted fs-2 fw-normal mb-0">Project Manager
+                                                            </p>
+                                                        </div>
+                                                    </div>
                                                 </td>
                                                 <td class="text-mainly fs-3 fw-normal">Real Homes WP Theme</td>
                                                 <td><span class="badge bg-primary">Medium</span></td>
@@ -503,13 +510,16 @@
 
                                             <tr>
                                                 <td>
-                                                    <img src="./assets/images/profile/3.png" alt="">
-                                                </td>
-                                                <td>
-                                                    <h6 class="table-title fs-3 fw-bold mb-0">
-                                                        Christopher
-                                                        Jamil</h6>
-                                                    <p class="text-muted fs-2 fw-normal mb-0">SEO Manager</p>
+                                                    <div class="d-flex">
+                                                        <img src="./assets/images/profile/3.png" class="profile-img"
+                                                            alt="">
+                                                        <div>
+                                                            <h6 class="table-title fs-3 fw-bold mb-0">
+                                                                Christopher
+                                                                Jamil</h6>
+                                                            <p class="text-muted fs-2 fw-normal mb-0">SEO Manager</p>
+                                                        </div>
+                                                    </div>
                                                 </td>
                                                 <td class="text-mainly fs-3 fw-normal">MedicalPro WP Theme</td>
                                                 <td><span class="badge bg-warning">High</span></td>
@@ -521,15 +531,18 @@
 
                                             <tr>
                                                 <td>
-                                                    <img src="./assets/images/profile/4.png" alt="">
-                                                </td>
-                                                <td>
-                                                    <h6 class="table-title fs-3 fw-bold mb-0">Nirav
-                                                        Joshi
-                                                    </h6>
-                                                    <p class="text-muted fs-2 fw-normal mb-0">Frontend
-                                                        Engineer
-                                                    </p>
+                                                    <div class="d-flex">
+                                                        <img src="./assets/images/profile/4.png" class="profile-img"
+                                                            alt="">
+                                                        <div>
+                                                            <h6 class="table-title fs-3 fw-bold mb-0">Nirav
+                                                                Joshi
+                                                            </h6>
+                                                            <p class="text-muted fs-2 fw-normal mb-0">Frontend
+                                                                Engineer
+                                                            </p>
+                                                        </div>
+                                                    </div>
                                                 </td>
                                                 <td class="text-mainly fs-3 fw-normal">Hosting Press HTML</td>
                                                 <td><span class="badge align-middle bg-danger">Low</span></td>
@@ -541,14 +554,17 @@
 
                                             <tr>
                                                 <td class="border-0">
-                                                    <img src="./assets/images/profile/5.png" alt="">
-                                                </td>
-                                                <td class="border-0">
-                                                    <h6 class="table-title fs-3 fw-bold mb-0">Micheal
-                                                        Doe
-                                                    </h6>
-                                                    <p class="text-muted fs-2 fw-normal mb-0">Content Writer
-                                                    </p>
+                                                    <div class="d-flex">
+                                                        <img src="./assets/images/profile/5.png" class="profile-img"
+                                                            alt="">
+                                                        <div>
+                                                            <h6 class="table-title fs-3 fw-bold mb-0">Micheal
+                                                                Doe
+                                                            </h6>
+                                                            <p class="text-muted fs-2 fw-normal mb-0">Content Writer
+                                                            </p>
+                                                        </div>
+                                                    </div>
                                                 </td>
                                                 <td class="text-mainly border-0 fs-3 fw-normal">Helping Hands WP
                                                     Theme
@@ -671,7 +687,7 @@
                                                     height="20px"></i></div>
                                             <div>
                                                 <h5 class="fs-4 fw-bold mb-1">Best Seller</h5>
-                                                <p class="text-mainly fs-3 m-0">MaterialPro Admin</p>
+                                                <p class="text-muted fs-3 m-0">MaterialPro Admin</p>
                                             </div>
                                         </div>
                                         <div>
@@ -685,7 +701,7 @@
                                                     height="20px"></i></div>
                                             <div>
                                                 <h5 class="fs-4 fw-bold mb-1">Most Commented</h5>
-                                                <p class="text-mainly fs-3 m-0">Ample Admin</p>
+                                                <p class="text-muted fs-3 m-0">Ample Admin</p>
                                             </div>
                                         </div>
                                         <div>
@@ -694,9 +710,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="image">
+                            <div id="weekly-stats"></div>
+                            <!-- <div class="image">
                                 <img src="./assets/images/hero/6.png" alt="">
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <!-- Weekly Stats End -->
@@ -832,6 +849,8 @@
     <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/libs/apexcharts-bundle/dist/apexcharts.min.js"></script>
     <script src="./dist/js/monthly-chart.js"></script>
+    <script src="./dist/js/stats-chart.js"></script>
+    <script src="./dist/js/total-sales-chart.js"></script>
     <script src="./dist/js/custom.min.js"></script>
     <script src="./dist/js/feather.min.js"></script>
 </body>

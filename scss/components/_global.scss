@@ -20,6 +20,13 @@ a {
     padding: 35px 30px !important;
 }
 
+.breadcrumb-select {
+    padding: 10px 42px 10px 19px;
+}
+
+.add-btn {
+    padding: 7px 12px;
+}
 
 .form-select {
     background-color: $aliceblue;
@@ -27,6 +34,10 @@ a {
 
 .text-mainly {
     color: $mainly-blue;
+}
+
+.profile-img {
+    margin-right: 14px;
 }
 
 .badge {
@@ -67,7 +78,7 @@ a {
 }
 
 .Performance-heading {
-    margin-bottom: 38px;
+    margin-bottom: 36px;
 }
 
 .time {

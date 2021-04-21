@@ -2,10 +2,9 @@ var options = {
     colors: ['#1a9bfc'],
 
     series: [{
-        name: 'Monthly Sales',
-        data: [44, 83, 25, 72, 38],
+        name: 'Weekly Stats',
+        data: [56, 124, 69, 144]
     }],
-
 
 
     fill: {
@@ -16,10 +15,6 @@ var options = {
 
 
     chart: {
-        zoom: {
-            enabled: true
-          },
-
         animations: {
             enabled: true,
             easing: 'easeinout',
@@ -33,9 +28,9 @@ var options = {
                 speed: 350
             }
         },
-
+        
         type: 'area',
-        height: 83,
+        height: 135,
         width: '100%',
 
         sparkline: {
@@ -49,5 +44,5 @@ var options = {
 
 };
 
-var chart = new ApexCharts(document.querySelector("#monthly-sales"), options);
+var chart = new ApexCharts(document.querySelector("#weekly-stats"), options);
 chart.render();

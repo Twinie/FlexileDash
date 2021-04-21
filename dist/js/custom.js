@@ -4,7 +4,7 @@ $(function () {
 
     $(".toggle-minimize").on("click", function () {
         $(".sidebar").toggleClass("show-sidebar");
-        // $(body).toggleClass("mini-sidebar")
+        $('body').toggleClass("hide");
     });
 
     // responsive js
