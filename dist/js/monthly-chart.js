@@ -15,6 +15,11 @@ var options = {
     },
 
 
+    tooltip: {
+        theme: 'dark',
+    },
+
+
     stroke: {
         width: 2,
     },

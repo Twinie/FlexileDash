@@ -6,6 +6,11 @@ var options = {
         type: 'donut',
     },
 
+    tooltip: {
+        theme: 'dark',
+    },
+
+
     colors: ['#1a9bfc', '#1e4db7', '#fec90f', '#ecf0f2'],
     dataLabels: {
         enabled: false

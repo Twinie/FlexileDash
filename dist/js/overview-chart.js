@@ -28,7 +28,7 @@ var options = {
     },
 
     tooltip: {
-        theme: 'light',
+        theme: 'dark',
     },
 
     grid: {

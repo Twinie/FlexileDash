@@ -6,6 +6,10 @@ var options = {
         data: [56, 124, 69, 144]
     }],
 
+    tooltip: {
+        theme: 'dark',
+    },
+
 
     fill: {
         colors: '#f3faff',
@@ -37,6 +41,7 @@ var options = {
                 speed: 350
             }
         },
+
 
         type: 'area',
         height: 120,
