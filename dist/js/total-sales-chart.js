@@ -24,7 +24,7 @@ var options = {
         pie: {
             donut: {
                 size: '78%',
-                background: 'transparent',
+                background: 'none',
                 labels: {
                     show: false,
                     name: {
