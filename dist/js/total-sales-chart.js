@@ -7,7 +7,7 @@ var options = {
         type: 'donut',
     },
 
-    colors: ['#1a9bfc', '#1e4db7', '#fec90f', '#080'],
+    colors: ['#1a9bfc', '#1e4db7', '#fec90f', '#ecf0f2'],
     dataLabels: {
         enabled: false
     },
