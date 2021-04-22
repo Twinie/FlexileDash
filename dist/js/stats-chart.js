@@ -14,7 +14,16 @@ var options = {
     },
 
 
+    stroke: {
+        width: 2,
+    },
+
+
     chart: {
+        zoom: {
+            enabled: true
+        },
+
         animations: {
             enabled: true,
             easing: 'easeinout',
