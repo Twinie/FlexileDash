@@ -7545,6 +7545,10 @@ a {
           .topbar .navbar .navbar-collapse .navbar-nav .dropdown .btn .profile {
             vertical-align: middle; }
 
+@media (max-width: 991px) {
+  .navbar-collapse {
+    display: none; } }
+
 @media (max-width: 767px) {
   .topbar .navbar .navbar-header {
     border-right: 0; }
