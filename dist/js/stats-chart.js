@@ -28,9 +28,9 @@ var options = {
                 speed: 350
             }
         },
-        
+
         type: 'area',
-        height: 135,
+        height: 120,
         width: '100%',
 
         sparkline: {

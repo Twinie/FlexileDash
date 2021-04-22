@@ -1,7 +1,7 @@
 @include media-breakpoint-up(md) {
     #main-wrapper {
         &.hide {
-            .topbar {
+            .navbar-collapse {
                 margin-left: 0;
                 width: 100%;
             }

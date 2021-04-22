@@ -232,10 +232,6 @@
     .sidebar.show-sidebar+.body-wrapper {
         margin-left: 0;
     }
-
-    .sidebar.show-sidebar+.topbar {
-        margin-left: 0;
-    }
 }
 
 @media (max-width: 991px) {
@@ -252,14 +248,15 @@
         margin-left: 0 !important;
     }
 
-    .sidebar.show-sidebar+.topbar {
-        margin-left: 0;
+    .sidebar.show-sidebar+.navbar-collapse,
+    .navbar-collapse {
+        margin-left: 0 !important;
+        width: 100%;
     }
+
+    .sidebar {
+        height: calc(100% - 100px);
+        top: 100px;
+    }
+
 }
-
-
-
-
-// @media (max-width: 767px) {
-
-// }

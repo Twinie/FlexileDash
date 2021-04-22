@@ -60,7 +60,22 @@
 
 
 
+#total-sales {
+    position: relative;
+
+    .cart-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 48px;
+        height: 46px;
+        color: #d2dce2;
+    }
+}
+
 .products {
+
     .circle-icon {
         width: 10px;
         height: 10px;
