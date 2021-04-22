@@ -40,7 +40,7 @@ var options = {
         },
 
         type: 'area',
-        height: 83,
+        height: 90,
         width: '100%',
 
         sparkline: {
