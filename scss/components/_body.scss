@@ -176,18 +176,3 @@
         padding: 20px 15px !important;
     }
 }
-
-
-
-@media (max-width: 365px) {
-    .navbar-header {
-        width: 200px;
-        padding: 0;
-        display: flex !important;
-        justify-content: center !important;
-
-        a {
-            margin: 0 !important;
-        }
-    }
-}
