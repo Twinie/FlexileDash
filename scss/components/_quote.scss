@@ -1,0 +1,21 @@
+.quote {
+    padding: 90px 0;
+    background: linear-gradient(to right, #7f3baf 0%, #4d3f95 100%);
+
+    .card {
+        padding: 60px;
+        background: url("../../assets/images/quote/up-quote.png") no-repeat top left, url("../../assets/images/quote/down-quote.png") no-repeat bottom right;
+    }
+
+    .image {
+        margin: 15px 0 ;
+        display: flex;
+        justify-content: center;
+        
+        img {
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+        }
+    }
+}

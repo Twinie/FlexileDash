@@ -1,0 +1,141 @@
+.footer {
+    background-color: $black;
+    padding: 90px 0;
+
+    .card {
+        background: none;
+    }
+
+    .footer-heading {
+        padding-bottom: 20px;
+    }
+
+    hr {
+        background-color: #78828c;
+        opacity: 0.1;
+    }
+
+    .footer-content {
+        padding-top: 40px;
+    }
+
+    .social-icons {
+        margin-top: 0;
+    }
+
+    .icons {
+        margin: 10px;
+    }
+
+    .footer-list {
+        padding: 8px 0;
+    }
+
+    .footer-link {
+        padding: 8px 0 !important;
+        transition: all 0.4s ease-in-out;
+        position: relative;
+
+
+        &:hover {
+            color: $warning !important;
+            margin-left: 15px;
+        }
+
+        &:hover .circle {
+            background-color: $warning;
+            border: 1px solid $warning;
+        }
+
+        .circle {
+            margin-right: 10px;
+            width: 8px;
+            height: 8px;
+            background-color: $text-muted;
+            border-radius: 50%;
+            transition: all 0.4s ease-in-out;
+            border: 1px solid $text-muted;
+        }
+    }
+
+    .location-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .clock-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .join-cardbody {
+        padding: 25px;
+        background: rgba(120, 130, 140, 0.13);
+        border-radius: 5px;
+
+        .card-icon {
+            width: 56px;
+            height: 56px;
+        }
+
+        input[type=email] {
+            width: 100%;
+            border-bottom: 1px solid #78828c !important;
+        }
+    }
+}
+
+
+
+
+@media (max-width: 767px) {
+    .footer-heading {
+        display: block !important;
+        justify-content: center !important;
+
+        .text {
+            margin-top: 10px;
+        }
+    }
+
+    .join-cardbody {
+        margin-top: 20px;
+    }
+}
+
+
+
+.news {
+
+    .scroll-image {
+        width: 20px;
+        height: 20px;
+    }
+
+    .scroll-rate {
+        color: $dark-blue;
+    }
+
+    .scroll-arrow-down {
+        width: 12px;
+        color: #fb3a3a;
+    }
+
+    .scroll-arrow-up {
+        width: 12px;
+        color: #07d79c;
+    }
+
+
+    .scroll-diff {
+        color: #fb3a3a;
+    }
+
+    .scroll-diffs {
+        color: #07d79c;
+    }
+
+    .scroll-list {
+        margin-right: 30px;
+    }
+}

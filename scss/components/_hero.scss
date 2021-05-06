@@ -1,0 +1,46 @@
+.hero {
+    margin-top: 133px;
+    padding: 90px 0;
+    background-image: url("../../assets/images/hero/banner.jpg");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+input[type=email] {
+    width: 100%;
+}
+
+input[type=password] {
+    width: 47%;
+}
+
+.hero-button {
+    padding: 15px 45px !important;
+}
+
+
+
+
+
+
+@media (max-width: 991px) {
+    .hero {
+        margin-top: 154px;
+
+       
+    }
+}
+
+@media (max-width: 575px) {
+    .btn {
+        width: 100%;
+        margin-bottom: 10px !important;
+    }
+
+    .button-group {
+        text-align: center;
+        display: block !important;
+    }
+
+}

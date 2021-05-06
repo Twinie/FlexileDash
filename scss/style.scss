@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 //
 // All the extended and custom variables(Required file)
 //
@@ -9,9 +9,15 @@
 // Import Bootstrap source files (Required file)
 //
 @import "bootstrap/bootstrap";
-@import "components/reset";
 @import "components/global";
 @import "components/header";
-@import "components/sidebar";
-@import "components/body";
-@import "components/layout";
+@import "components/hero";
+@import "components/demo";
+@import "components/stocks";
+@import "components/options";
+@import "components/calculator";
+@import "components/team";
+@import "components/quote";
+@import "components/blog";
+@import "components/subscribe";
+@import "components/footer";

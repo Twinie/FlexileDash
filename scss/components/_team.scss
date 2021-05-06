@@ -1,0 +1,41 @@
+.team {
+    padding: 90px 0;
+}
+
+.team-profile {
+    border-radius: 50%;
+}
+
+.profile-name {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.profil-work {
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    margin-top: 30px;
+    display: inline-block;
+    
+    &:hover .icons {
+        margin-top: 0 !important;
+        color: $warning;
+    }
+    
+    .icons {
+        width: 16px;
+        height: 16px;
+        margin: 11px;
+        transition: all 0.4s ease-in-out;
+    } 
+}
+
+
+
+
+
+@media (max-width: 991px) {
+    
+} 

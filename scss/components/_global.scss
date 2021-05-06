@@ -1,119 +1,25 @@
-:focus {
-    outline: none;
-    box-shadow: 0 0 0 0rem !important;
+body {
+    font-family: $montserrat;
+    scroll-behavior: smooth;
 }
 
 a {
     text-decoration: none;
 }
 
-.profile-name {
-    margin-left: 5px;
+:focus {
+    outline: none;
+    box-shadow: none !important;
 }
 
 .card {
-    margin-bottom: 30px;
-    border: $card-border;
+    border: none;
 }
 
 .card-body {
-    padding: 35px 30px !important;
+    padding: 0;
 }
 
-.breadcrumb-select {
-    padding: 10px 42px 10px 19px;
-}
-
-.add-btn {
-    padding: 7px 12px;
-}
-
-.form-select {
-    background-color: $aliceblue;
-}
-
-.text-mainly {
-    color: $mainly-blue;
-}
-
-.profile-img {
-    margin-right: 14px;
-}
-
-.badge {
-    font-size: 12px;
-    font-weight: 400;
-}
-
-.badge-background {
-    background-color: $athens-gray;
-}
-
-.table-title {
-    margin-bottom: 6px !important;
-}
-
-.page-breadcrumb {
-    margin-bottom: 54px;
-}
-
-.downloard-cardbody {
-    padding: 43px 42px 60px 42px !important;
-}
-
-.caption-overview {
-    margin-bottom: 47px;
-}
-
-.heading-cardbody {
-    margin-bottom: 28px;
-}
-
-.cardbody-value {
-    margin-bottom: 40px !important;
-}
-
-.total-sales-year {
-    margin-top: 43px;
-}
-
-.Performance-heading {
-    margin-bottom: 36px;
-}
-
-.time {
-    margin-bottom: 30px;
-}
-
-.angular-text {
-    margin-bottom: 22px;
-}
-
-.angular-badges {
-    margin-bottom: 36px;
-}
-
-.profile-image {
-    margin-top: 17px;
-}
-
-.stats-items {
-    margin-bottom: 36px;
-}
-
-.stats-circle {
-    margin-right: 14px;
-    padding: 12px;
-}
-
-.work {
-    padding-bottom: 26px;
-}
-
-.work-apply {
-    padding-bottom: 15px;
-}
-
-.activity-heading {
-    margin-bottom: 50px;
+li {
+    list-style: none;
 }

@@ -1,0 +1,38 @@
+.option {
+    padding: 90px 0;
+    background-color: #f5f7fa;
+
+    img {
+        width: 100% !important;
+        height: auto;
+    }
+}
+
+.opption-image {
+    box-shadow: #80808052 0 0 20px;
+}
+
+.option-heading {
+    margin: 10px 0 25px 0;
+}
+
+.option-subtitle {
+    color: $charcoal;
+}
+
+.check-icon {
+    width: 18px;
+    height: 18px;
+}
+
+
+
+
+
+@media (max-width: 991px) {
+    .option {
+        .image {
+            margin-bottom: 50px;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.subscribe {
+    padding: 40px;
+    background: url("../../assets/images/subscribe/c2a.png");
+
+    .card {
+        background: none;
+    }
+
+    .sub-button {
+        padding: 15px 45px;
+        color: $text-dark;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 991px) {
+    .subscribe {
+        .card-body {
+            display: block !important;
+            text-align: center;
+
+            .sub-button {
+                margin-top: 10px;
+            }
+        }
+    }
+}

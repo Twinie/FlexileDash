@@ -1,0 +1,28 @@
+.demo {
+    padding: 40px 0;
+}
+
+.demo-main-text {
+    margin: 20px 0 15px 0;
+}
+
+.demo-button {
+    padding: 15px 45px !important;
+    margin: 15px 0 0 0 !important;
+}
+
+.demo-card {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+@media (max-width: 991px) {
+    .demo {
+        .text {
+            margin-bottom: 50px;
+        }
+    }
+}

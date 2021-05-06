@@ -1,119 +1,56 @@
-.topbar {
-    background-color: #fff;
-    width: 100%;
-    position: fixed;
-    z-index: 4;
-    transition: all 0.6s;
-
-    .navbar {
-        padding: 0;
-
-        .toggle-minimize {
-            color: rgba(0, 0, 0, .55);
-        }
-
-        .navbar-collapse {
-            transition: all 0.6s;
-            padding: 0 19px 0 27px;
-            margin-left: 265px;
-
-            .navbar-nav {
-                height: 100px;
-                line-height: 100px;
-                flex-direction: row;
-
-                .nav-item {
-                    // margin-right: auto;
-
-                    .message-button {
-                        position: relative;
-
-                        .icon {
-                            color: $gray;
-                        }
-
-                        .notify>.yellow-point {
-                            position: absolute;
-                            content: "";
-                            border-radius: 50%;
-                            width: 6px;
-                            height: 6px;
-                            background-color: $warning;
-                            top: 2px;
-                            right: 6px;
-
-                        }
-
-                        .notify>.blue-point {
-                            position: absolute;
-                            content: "";
-                            border-radius: 50%;
-                            width: 6px;
-                            height: 6px;
-                            background-color: #1e4db7;
-                            top: 2px;
-                            right: 6px;
-
-                        }
-                    }
-
-                    .nav-link {
-                        padding: 0 10px;
-                        // position: relative;
-
-                        .icon {
-                            color: #949db2;
-                            font-size: 24px;
-                        }
-
-                        .notify>.yellow-point {
-                            position: absolute;
-                            content: "";
-                            border-radius: 50%;
-                            width: 6px;
-                            height: 6px;
-                            background-color: #fec90f;
-                            top: 34px;
-                            right: 3px;
-
-                        }
-
-                        .notify>.blue-point {
-                            position: absolute;
-                            content: "";
-                            border-radius: 50%;
-                            width: 6px;
-                            height: 6px;
-                            background-color: #1e4db7;
-                            top: 34px;
-                            right: 3px;
-
-                        }
-                    }
-                }
-
-                .dropdown {
-                    margin: 0 0 0 15px;
-
-                    .btn {
-                        .profile {
-                            vertical-align: middle;
-                        }
-                    }
-                }
-            }
-        }
-    }
+.header {
+    color: $dark-blue;
 }
 
-// responsive
+.navs {
+    margin-top: 37px;
+    background-color: #fff;
+}
 
-@media (max-width: 767px) {
-    .topbar .navbar .navbar-header {
-        border-right: 0;
+.nav-link {
+    padding: 0 15px !important;
+    color: $text-muted !important;
+}
+
+.nav-button {
+    padding: 10px 25px !important;
+}
+
+.button-gradiant {
+    background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
+    margin-left: 10px;
+    padding: 10px 25px !important;
+    transition: all 0.4s ease-in-out;
+}
+
+.button-gradiant:hover {
+    background: linear-gradient(to left, #ff4d7e 0%, #ff6a5b 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+    .navs {
+        margin-top: 58px;
+        // background: none;
     }
 
-    .topbar .navbar .navbar-collapse .navbar-nav {
-        justify-content: center;
+    .navbar {
+        .collapse {
+            margin-top: 20px !important;
+
+            .nav-item {
+                padding: 8px 0;
+            }
+        }
     }
 }

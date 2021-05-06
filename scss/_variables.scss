@@ -1,26 +1,18 @@
-// $white: #fff !default;
-// $info: #1a9bfc !default;
-// $blue: #1e4db7 !default;
-// $green: #39cb7f !default;
-// $yellow: #fec90f !default;
-// $pink: #fc4b6c !default;
-$sail: #a7e3f4 !default;
-$perono: #9fb8ef !default;
-$text-muted: #99abb4 !default;
-$mainly-blue: #777e89 !default;
-$aliceblue: #f1f9ff !default;
-$img-background: #e6f4ff !default;
-$athens-gray: #e7e9f0 !default;
-$harmonies: #d3dde2 !default;
-$gray: #949db2 !default;
-$text-dark: #11142d !default;
+$dark-blue: #263238 !default;
+$text-dark: #3e4555 !default;
+$text-muted: #8d97ad !default;
+$charcoal: #212529 !default;
+$black : #343a40 !default;
 
 
+
+$pacifico:'Pacifico',
+cursive;
 
 
 // Color system
 $white: #fff !default;
-$gray-100: #f8f9fa !default;
+$gray-100: #8d97ad !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
@@ -28,7 +20,7 @@ $gray-500: #adb5bd !default;
 $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
-$gray-900: #11142d !default;
+$gray-900: #263238 !default;
 $black: #000 !default;
 
 // fusv-disable
@@ -43,13 +35,13 @@ $grays: ("100": $gray-100,
   "900": $gray-900) !default;
 // fusv-enable
 
-$blue: #1e4db7 !default;
+$blue: #7c3bad !default;
 $indigo: #6610f2 !default;
 $purple: #6f42c1 !default;
 $pink: #d63384 !default;
-$red: #fc4b6c !default;
+$red: #ff4d7e !default;
 $orange: #fd7e14 !default;
-$yellow: #fec90f !default;
+$yellow: #edb610 !default;
 $green: #39cb7f !default;
 $teal: #20c997 !default;
 $cyan: #1a9bfc !default;
@@ -91,7 +83,7 @@ $theme-colors: ("primary": $primary,
 // scss-docs-end theme-colors-map
 
 
-$dm-sans: 'DM Sans',
+$montserrat: 'Montserrat',
 sans-serif;
 
 
@@ -102,13 +94,11 @@ $h4-font-size: 18px !default;
 $h5-font-size: 16px !default;
 $h6-font-size: 14px !default;
 
-$headings-color: #11142d !default;
+$headings-color: #3e4555 !default;
 $headings-font-weight: 500 !default;
 
 $card-border-radius: 20px !default;
 
-$border-color: #ecf0f2 !default;
-$card-border: 1px solid $border-color !default;
 
 $line-height-base: 1.5 !default;
 $line-height-sm: 1.3 !default;
@@ -131,10 +121,9 @@ $font-sizes: (1: 10px,
   6: 20px,
   7: 24px,
   8: 30px,
+  9: 36px,
 ) !default;
 // scss-docs-end font-sizes
 
-
-$table-cell-padding-y: 16px !default;
 
 $grid-gutter-width: 30px !default;

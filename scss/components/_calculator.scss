@@ -1,0 +1,34 @@
+.calculator {
+    padding: 90px 0;
+    background-image: url("../../assets/images/calender/form-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    .card {
+        border: none;
+        border-radius: 5px;
+    }
+
+    .calculator-body {
+        padding: 20px !important;
+    }
+
+    input[type=text] {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        border-radius: 5px;
+        border: 2px solid rgba(120, 130, 140, 0.13);
+    }
+
+    .subtitle {
+        font-family: $pacifico;
+    }
+}
+
+.calculator-title {
+    // margin: 10px;
+    padding: 20px 0 15px 0 !important;
+}
+

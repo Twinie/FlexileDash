@@ -1,0 +1,65 @@
+.stocks {
+    padding: 40px 0;
+    
+    .card-body {
+        padding: 30px;
+    }
+
+    hr {
+        margin: 16px 0;
+        color: #fff;
+    }
+}
+
+.xrp-card {
+    border-radius: 5px;
+    background: linear-gradient(to right, #edb610 0%, #ff8e49 100%);
+    transition: all 0.5s ease-in-out;
+}
+
+.xrp-card:hover {
+    transform: scale(1.1);
+}
+
+.eth-card {
+    border-radius: 5px;
+    background: linear-gradient(to right, #05a8fd 0%, #316ce8 100%);
+    transition: all 0.5s ease-in-out;
+}
+
+.eth-card:hover {
+    transform: scale(1.1);
+}
+
+.btc-card {
+    border-radius: 5px;
+    background: linear-gradient(to right, #7f3baf 0%, #4d3f95 100%);
+    transition: all 0.5s ease-in-out;
+}
+
+.btc-card:hover {
+    transform: scale(1.1);
+}
+
+.stocks-up, .stocks-down {
+    width: 16px;
+    height: 16px;
+}
+
+
+
+
+
+
+@media (max-width: 991px) {
+    .xrp-card {
+        margin-bottom: 20px;
+    }
+    .eth-card {
+        margin-bottom: 20px;
+    }
+
+    .btc-card {
+        margin-bottom: 20px;
+    }
+}
